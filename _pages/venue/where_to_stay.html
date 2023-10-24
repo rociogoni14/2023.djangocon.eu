@@ -1,0 +1,110 @@
+---
+description: 23rd Int. Conference on Business Process Management (BPM 2025)
+heading: Where to Stay
+layout: base
+permalink: /where_to_stay/
+---
+
+<header class="subpage-header" style="background-image: url(/image/recepcionista.png); background-size: cover;">
+  <h1>{{ page.heading }}</h1>
+  <br>
+  <br>
+</header>
+
+<div class="content">
+  <br>
+  <br>
+  <div class="row column v-pad-bottom">
+    <div class="medium-6 large-7 column">
+      <p class="lead">
+        There are many hotels around the venue in a varied range of prices. Here we list some of them:
+      </p>
+      <div class="text-center partner-cta-box">
+        <img src="/image/viapol-4.webp" alt="Desayuno">
+      </div>
+    </div>
+    <div class="medium-5 large-5 column">
+      <div class="text-center partner-cta-box">
+        <img src="https://www.ahstatic.com/photos/3210_fe_01_p_2048x1536.jpg" alt="Recepción Novotel">
+      </div>
+      <br>
+      
+    </div>
+  </div>
+  <!-- PRE CONFERENCE -->
+  <!--
+  <div class="row column v-pad-bottom">
+    <div class="row column">
+      <p class="lead">
+        DjangoCon US is only possible through the generosity of the organizations and businesses on this page. Their donations make it possible for us to provide opportunity grants to speakers and attendees, stream and record all talks, add captioning to talks, and so much more. Thank you for your support!
+      </p>
+    </div>
+    {% comment %}
+    <div class="medium-5 large-4 column">
+      <div class="callout text-center partner-cta-box">
+        <h2>Looking for a job?</h2>
+        <p>Some of our sponsors are hiring! Take a look at our virtual jobs board to learn more.</p>
+        <a href="" class="button disabled black">Jobs Board Coming Soon</a>
+      </div>
+    </div>
+    {% endcomment %}
+  </div>
+
+    <div class="section-pad {% cycle 'theme-light-gray', 'theme-medium-gray', 'theme-white' %}">
+  <div class="row partner text-center">
+      <div class="column medium-12">
+        <p>Interested in becoming a sponsor? There's still time!</p>
+        <a href="/sponsors/information/" class="button">Become a Sponsor</a>
+      </div>
+    </div>
+        </div>
+-->
+
+{% for staying-level in site.data.staying-levels.staying-levels %}
+  {% assign stayings_in_level = site.stayings | where: 'level', staying-level.title | where: 'hidden', false %}
+ 
+  {% assign stayings_count = stayings_in_level | size %}
+  {% if stayings_count != 0 %}
+    <div class="section-pad {% cycle 'theme-light-gray', 'theme-medium-gray', 'theme-white' %}">
+      <h2 class="text-center v-pad-bottom">{{ staying-level.title }}</h2>
+      {% for staying in stayings_in_level %}
+        {% if staying.level == staying-level.title %}
+          {% unless staying.hidden %}
+            <div class="row partner">
+              <div class="column medium-4 text-center">
+                <br>
+                <br>
+                <br>
+                <a href="{{ staying.url_target }}" rel="sponsored">
+                  <img
+                    class="partner-logo {{ staying.logo_orientation }}"
+                    src="{{ staying.logo }}"
+                    alt="{{ staying.name }} Logo" />
+                </a>
+                <a href="{{ staying.url_target }}" rel="sponsored">
+                  <img
+                    class="partner-logo {{ staying.logo_orientation }}"
+                    src="{{ staying.logo2 }}"
+                    alt="{{ staying.name }} Logo" />
+                </a>
+                <a href="{{ staying.url_target }}" rel="sponsored">
+                  <img
+                    class="partner-logo {{ staying.logo_orientation }}"
+                    src="{{ staying.logo3 }}"
+                    alt="{{ staying.name }} Logo" />
+                </a>
+              </div>
+              
+              <div class="column medium-8">
+                <h3 class="partner-name"><a href="{{ staying.url_target }}" rel="sponsored">{{ staying.name }}</a></h3>
+                {% capture staying_description %}{{ staying.description }}{: .partner-description }{% endcapture %}
+                {{ staying_description | markdownify }}
+              </div>
+            </div>
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}
+</div>

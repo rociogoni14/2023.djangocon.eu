@@ -6,14 +6,15 @@ permalink: /sponsors/information/
 title: Become a Sponsor
 ---
 
-## Why Sponsor DjangoCon Europe?
+## Why Sponsor BPM2025?
 
-This will be the 15th DjangoCon Europe, and is being held in Edinburgh from the 29th May to the 2nd June. DjangoCon Europe is the biggest dedicated Django conference in Europe and attracts many of the World's leading Django developers to speak, conduct workshops and share knowledge.
+This will be the 23rd Conference on Business Process Management, and is being held in Seville on September 2025. BPM 2025 is the 23rd conference in a series that provides the most prestigious forum for researchers and practitioners in the field of Business Process Management.
 
-If you're looking to hire developers, promote a product that's useful to developers, promote awareness of your organisation, or just give something back to the community, then you should sponsor DjangoCon Europe.
+If you're looking to hire developers, promote a product that's useful to developers, promote awareness of your organisation, or just give something back to the community, then you should sponsor BPM2025.
 
-DjangoCon Europe has existed for more than a decade and is professionally run by passionate volunteers, and on a not-for-profit basis.
+If you are interested, send an email for further information to resinas@us.es.
 
+{% comment %}
 ## Sponsorship Packages
 
 The following table details the core sponsorship levels. We have several different packages that offer different levels of visibility, but all will show your organisation's support of the Django Community, both on the screen during the conference, in printed materials.
@@ -53,3 +54,5 @@ Accessibility sponsorship will attach your company's brand to the accessibility 
 This sponsorship package includes contributions to various diversity initiatives, including diversity grants and the operation of the conference crèche. Your brand will be associated with the diversity initiatives you've chosen. Please contact us to discuss options.
 
 Please contact <a href="mailto:{{site.sponsors_email}}">{{site.sponsors_email}}</a> with questions and comments and we'll get back to you within 24 hours! We are also available to schedule a call to clarify all the sponsorship packages and even adapt them to your company specific requirements.
+
+{% endcomment %}

@@ -1,5 +1,5 @@
 ---
-description: DjangoCon Europe is only possible through the support of various organizations.
+description: Sponsors for BPM2025
 heading: Sponsors
 layout: base
 permalink: /sponsors/
@@ -13,7 +13,7 @@ permalink: /sponsors/
   <div class="row column v-pad-bottom">
     <div class="medium-6 large-7 column">
       <p class="lead">
-        DjangoCon Europe is only possible through the generosity of the organizations and businesses on this page. Their contributions make it possible for us to provide opportunity grants to speakers and attendees, record all talks, host sprints, and feed everyone for five days. Thank you for your support!
+        BPM2025 is only possible through the generosity of the organizations and businesses on this page. Their contributions make it possible for us to provide opportunity grants to speakers and attendees, record all talks, host sprints, and feed everyone for a week. Thank you for your support!
       </p>
     </div>
     <div class="medium-5 large-4 column">
@@ -25,20 +25,20 @@ permalink: /sponsors/
       </div>
       {% endcomment %}
       <div class="callout text-center partner-cta-box">
-        <h2>Sponsor DjangoCon Europe!</h2>
-        <p>Sign up to sponsor DjangoCon Europe and help make the conference happen.</p>
+        <h2>Sponsor BPM2025!</h2>
+        <p>Sign up to sponsor BPM2025 and help make the conference happen.</p>
         <a href="{% link _pages/sponsors-information.md %}" class="button">Check out sponsorship opportunities</a>
       </div>
     </div>
   </div>
 
   {% comment %}
-    {% assign sponsors_by_level = "Diamond|Platinum|Gold|Silver|Bronze|Community|Grants|Supporters" | split: "|" %}
+    {% assign sponsors_by_level = "Platinum|Gold|Silver|Bronze|Academic" | split: "|" %}
   {% endcomment %}
-  {% assign sponsors_by_level = "Platinum|Gold|Silver|Bronze|Community|Grants|Supporters" | split: "|" %}
+  {% assign sponsors_by_level = "Gold|Silver|Bronze|Academic" | split: "|" %}
   {% for level in sponsors_by_level %}
   <div class="section-pad {% cycle 'theme-light-gray', 'theme-medium-gray', 'theme-white' %}">
-    <h2 class="text-center v-pad-bottom">{{ level }}</h2>
+    <h2 class="text-center v-pad-bottom" style="color: black;">{{ level }}</h2>
     {% if level == "Supporters" %}
       <div class="row partner">
         The following amazing people and companies from the Django community went above and beyond to help make this
@@ -54,18 +54,17 @@ permalink: /sponsors/
           {{ sponsor.name }}
         </div>
       {% else %}
-        <div class="column medium-4 text-center">
+        <div class="column medium-12 text-center">
+          <h3 class="partner-name"><a href="{{ sponsor.url_target }}" rel="sponsored" style="color: black;">{{ sponsor.name }}</a></h3>
           <a href="{{ sponsor.url_target }}" rel="sponsored">
             <img
               class="partner-logo {{ sponsor.logo_orientation }}"
               src="{{ sponsor.logo }}"
               alt="{{ sponsor.name }}"
               loading="lazy"
-              decoding="async" />
+              decoding="async"
+              width="250" />
           </a>
-        </div>
-        <div class="column medium-8">
-          <h3 class="partner-name"><a href="{{ sponsor.url_target }}" rel="sponsored">{{ sponsor.name }}</a></h3>
           {% if sponsor.extra_packages %}
           <div class="partner-packages">
             {% for package in sponsor.extra_packages %}

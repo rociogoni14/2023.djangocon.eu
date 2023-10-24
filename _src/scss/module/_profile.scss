@@ -30,3 +30,9 @@
     fill: currentColor;
   }
 }
+.profile .circular-image {
+  border-radius: 50%;
+  width: 200px; /* Ajusta el tamaño según tus preferencias */
+  height: 200px; /* Ajusta el tamaño según tus preferencias */
+  object-fit: cover; /* Para asegurarte de que la imagen se ajuste bien al círculo */
+}

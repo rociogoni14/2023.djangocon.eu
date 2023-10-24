@@ -1,0 +1,65 @@
+---
+description: 23rd Int. Conference on Business Process Management (BPM 2025)
+heading: Visa Information
+layout: base
+permalink: /visa_information/
+---
+
+<header class="subpage-header" style="background-image: url(/image/brujula.png); background-size: cover;">
+  <br>
+  <br>
+  <h1 style="color: rgb(0, 0, 0);">{{ page.heading }}</h1>
+  <br>
+  <br>
+  <br>
+</header>
+
+<div class="content">
+  <div class="row column v-pad-bottom">
+    <div class="medium-6 large-7 column">
+        <br>
+      <p class="lead">
+        International registrants should be particularly aware and careful about visa requirements and should plan travel well in advance. The visa regulations in Spain can be found <a href="http://www.exteriores.gob.es/Portal/en/ServiciosAlCiudadano/InformacionParaExtranjeros/Paginas/Inicio.aspx" target="_blank">on this website</a>.
+      </p>
+    </div>
+    <div class="medium-5 large-4 column">
+        <br>
+      <div class="text-center partner-cta-box">
+        <img src="/image/visa.jpg" alt="foto visa">
+      </div>
+    </div>
+  </div>
+  
+
+{% for visa-level in site.data.visa-levels.visa-levels %}
+  {% assign visas_in_level = site.visas | where: 'level', visa-level.title | where: 'hidden', false %}
+ 
+  {% assign visas_count = visas_in_level | size %}
+  {% if visas_count != 0 %}
+    <div class="section-pad {% cycle 'theme-light-gray', 'theme-medium-gray', 'theme-white' %}">
+      <h2 class="text-center v-pad-bottom">{{ visa-level.title }}</h2>
+      {% for visa in visas_in_level %}
+        {% if visa.level == visa-level.title %}
+          {% unless visa.hidden %}
+            <div class="row partner">
+              <div class="column medium-4 text-center">
+                <a href="{{ visa.url_target }}" rel="sponsored">
+                  <img
+                    
+                    src="{{ visa.logo }}"
+                    alt="{{ visa.name }} Logo" width="350" height="300" />
+                </a>
+              </div>
+              <div class="column medium-8">
+                <h3 class="partner-name"><a href="{{ visa.url_target }}" rel="sponsored">{{ visa.name }}</a></h3>
+                {% capture visa_description %}{{ visa.description }}{: .partner-description }{% endcapture %}
+                {{ visa_description | markdownify }}
+              </div>
+            </div>
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}
+</div>

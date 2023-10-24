@@ -4,7 +4,7 @@
   position: relative;
   padding-top: 2rem;
   padding-bottom: 3.5rem;
-  background-color: $brand-color6;
+  background-color: $black;
   // background-image: url(/static/img/crab-arm.svg);
   // background-position: left bottom 160px;
   // background-repeat: no-repeat;
@@ -49,7 +49,7 @@
     // Edinburgh Skyline silhouette purchased from BerriDesign on 28 Feb, 2023.
     mask-image: url(/static/img/city-silhouette.svg);
     -webkit-mask-image: url(/static/img/city-silhouette.svg);
-    background-color: $brand-color5;
+    background-color: $black;
     content: "";
     // Allow clicking through in case of overlap with content.
     pointer-events: none;
@@ -70,7 +70,8 @@
   text-align: center;
 
   img {
-    width: 11rem;
+    width: 5rem;
+    padding-top: 3rem;
 
     @media print {
       filter: brightness(0);

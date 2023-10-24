@@ -1,0 +1,125 @@
+---
+description: BPM Steering Committee
+heading: BPM Steering Committee
+layout: base
+permalink: /steering_committee/
+published: true
+redirect_from:
+- /about/organizers/
+title: 23rd Int. Conference on Business Process Management (BPM 2025)
+---
+
+<header class="subpage-header">
+  <div class="header-content">
+    <div class="row partner">
+      <div class="column medium-2 text-left-aligned">       
+      <img src="/image/logo.png" alt="logo">
+      </div>
+      <div class="column medium-10 text-left-aligned">
+        <h1>{{ page.heading }}</h1>
+        
+      </div>
+
+    </div>
+    
+  </div>
+</header>
+
+<div class="content subpage-content">
+  <section class="section-pad theme-light-gray">
+    <br>
+    <div class="row column">
+      <p class="lead">The success of the BPM2025 Conference on Business Process Management is built upon the expertise and vision of a select group of leaders in the field of business process management. Our dedicated steering committee brings together outstanding and passionate experts who guide and oversee the strategic development of the conference. Their commitment to excellence and innovation ensures that BPM2025 is a cutting-edge event that addresses the most relevant challenges and opportunities in the field of process management. Through their leadership, we are committed to delivering a conference that inspires, educates, and advances this fundamental discipline.
+      </p>
+    </div>
+  </section>
+  <section class="section-pad theme-medium-gray">
+    <br>
+    <div class="row column">
+      <div
+        class="row small-up-1 smedium-up-2 medium-up-3 large-up-3 organizers">
+      {% for steering in site.steerings %}
+        {% unless steering.hidden %}
+          <div
+            class="column column-block">
+            <div class="profile">
+              <img
+                class="circular-image"
+                src="{{ steering.photo_url }}"
+                alt="Photo of {{ steering.name }}" />
+              <div class="profile-namecard">
+                <h3 class="profile-name">
+                  {{ steering.name }}
+                </h3>
+                <h5><em>{{ steering.role }}</em></h5>
+                 
+              </div>
+              <div class="social">
+                {% if steering.institution != blank %}
+                    <p> <img class="social-icon" src="/image/steering_committee/institucion.png" alt="" width="40" style="text-align: center;"> {{ steering.institution }}</p>
+                  
+                {% endif %}
+                {% if steering.location != blank %}
+                  <p>
+                    <img class="social-icon" src="/image/steering_committee/location.png" alt="" width="40"> {{ steering.location }}
+                  </p>
+                {% endif %}
+                {% if steering.email != blank %}
+                  <p>
+                     <img class="social-icon" src="/image/steering_committee/email.png" alt="" width="40"> {{ steering.email }}
+                  </p>
+                {% endif %}
+              </div>
+            </div><!--/.profile -->
+          </div><!--/.column -->
+        {% endunless %}
+      {% endfor %}
+
+      </div><!--/.row -->
+    </div>
+  </section>
+
+  <section class="section-pad">
+    <div class="row column">
+      <h2 class="text-center v-pad-bottom">Assistants to the Steering Committee</h2>
+      <div class="row small-up-1 smedium-up-2 medium-up-3 large-up-3 organizers">
+        {% for assistant in site.assistants %}
+        {% unless assistant.hidden %}
+          <div
+            class="column column-block">
+            <div class="profile">
+              <img
+                class="circular-image"
+                src="{{ assistant.photo_url }}"
+                alt="Photo of {{ assistant.name }}" />
+              <div class="profile-namecard">
+                <h3 class="profile-name">
+                  {{ assistant.name }}
+                </h3>
+                <h5><em>{{ assistant.role }}</em></h5>
+                 
+              </div>
+              <div class="social">
+                {% if assistant.institution != blank %}
+                    <p> <img class="social-icon" src="/image/steering_committee/institucion.png" alt="" width="40" style="text-align: center;"> {{ assistant.institution }}</p>
+                  
+                {% endif %}
+                {% if assistant.location != blank %}
+                  <p>
+                    <img class="social-icon" src="/image/steering_committee/location.png" alt="" width="40"> {{ assistant.location }}
+                  </p>
+                {% endif %}
+                {% if assistant.email != blank %}
+                  <p>
+                     <img class="social-icon" src="/image/steering_committee/email.png" alt="" width="40"> {{ assistant.email }}
+                  </p>
+                {% endif %}
+              </div>
+            </div><!--/.profile -->
+          </div><!--/.column -->
+        {% endunless %}
+      {% endfor %}
+      </div>
+    </div>  
+  </section>
+</div><!-- end .content -->

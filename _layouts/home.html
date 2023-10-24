@@ -6,61 +6,44 @@ layout: base
   <div class="row">
     <figure class="hero-picture">
       <picture>
-        <source type="image/avif" srcset="/static/img/promo/edinburgh-skyline-opt30.avif">
-        <source type="image/webp" srcset="/static/img/promo/edinburgh-skyline-opt80.webp">
+        <source type="image/jpg" srcset="/image/torre_de_oro.jpg">
         <img
-          src="/static/img/promo/edinburgh-skyline-opt70.jpg"
-          alt="View of the Edinburgh skyline at dusk, with clock tower and castle in the distance"
+          src="/image/torre_de_oro.jpg"
+          alt="Torre de oro"
           width="352"
           height="312"
           loading="lazy"
           decoding="async"
         >
+        
       </picture>
-      <figcaption><a href="/location/">Edinburgh at night</a></figcaption>
+      <figcaption><a href="https://www.catedraldesevilla.es/" target="_blank">Cathedral of Seville</a></figcaption>
     </figure>
     <figure class="hero-picture hero-picture--odd">
       <picture>
-        <source type="image/avif" srcset="/static/img/promo/djangocon-crowd-opt30.avif">
-        <source type="image/webp" srcset="/static/img/promo/djangocon-crowd-opt80.webp">
+        <source type="image/jpg" srcset="/image/Catedral.jpg">
         <img
-          src="/static/img/promo/djangocon-crowd-opt70.jpg"
-          alt="A crowd of people standing with arms open, with the Django poney and DjangoCon Europe 2019 logo in the background"
+          src="/image/torre_de_oro.jpg"
+          alt="View of the Cathedral of Seville"
           width="352"
           height="312"
           loading="lazy"
           decoding="async"
         >
       </picture>
-      <figcaption><a href="https://twitter.com/PlasmaDray/status/1117143187120885760">DjangoCon Europe 2019</a></figcaption>
+      <figcaption><a href="https://visitasevilla.es/torre-del-oro/" target="_blank">Torre del Oro</a></figcaption>
     </figure>
     <div class="header-text">
-      <h1>Five days of talks, sprints, and tutorials in Edinburgh</h1>
+      <h1 style="font-weight: 800; color: rgb(147, 245, 245);">23rd Int. Conference on Business Process Management </h1>
 
       <div class="event-info-detail">
-        <p>
-          <strong>29th May - 2nd June 2023</strong>
-        </p>
-
-        <p>
-          Assembly Rooms in <strong>Edinburgh, Scotland</strong>
+        <p style="-webkit-text-stroke: 2px black; font-weight: 400;color: rgb(147, 245, 245)">
+          <strong>BPM 2025</strong>
+          <strong>Seville</strong>
         </p>
       </div>
 
-      <a class="button button--bright button--tickets" href="/tickets/">Buy Tickets</a>
-
-      {% comment %}
-      <a class="button button--bright" href="{{ site.cfp_application }}">Submit Talk</a>
-      {% endcomment %}
-
-      {% comment %}
-      <a class="button button--bright" href="https://emails.djangocon.us/sendy/subscription?f=Gs892S6cdJ676370nkSBxLOWzUsgYKPBcwkEMMvt0rr70f3IeA7634kuMTKJCLrdcgOQHQHdzwqLwvmcETbcm6KWtu9g">Join Mailing List</a>
-      {% endcomment %}
-
-      {% comment %}
-      <a class="button button--bright" href="/schedule/">Conference Schedule</a>
-      {% endcomment %}
-
+      <a class="button button--bright button--tickets" href="/registration/">Get Registered!</a>
     </div>
   </div>
 </header>
@@ -69,8 +52,7 @@ layout: base
 <div class="content">
 
 <section class="section-pad theme-brand-color3">
-  <h2 class="show-for-sr">Conference Schedule</h2>
-  <p class="lead column large-9 large-centered text-center">Join us for a source of inspiration, education and networking opportunities. Our team is making sure that participating in DjangoCon Europe is easy for you!</p>
+  <p class="lead column large-9 large-centered text-center">BPM2025 will be held in Sevilla and will host hundreds of attendees from all over the world!</p>
   {% include schedule-date-cards.html %}
 </section>
 
@@ -85,99 +67,20 @@ layout: base
 
 <section class="section-pad theme-medium-gray">
   <div class="row column v-pad-bottom text-center">
-    <h2>By the community for the community</h2>
+    <h2>23rd Int. Conference on Business Process Management</h2>
   </div>
   <div class="row">
     <div class="column">
       <div class="lead">
-        <p>This is the 15th edition of the Conference and it is organized by a team made up of Django practitioners from all levels. We welcome people from all over the world.</p>
-        <p>Our conference seeks to educate and develop new skills, best practices and ideas for the benefit of attendees, developers, speakers and everyone in our global Django Community.</p>
-        </div>
-    </div>
-  </div>
-  <div class="row card-row">
-    <div class="medium-4 column">
-      <div>
-        <img
-          src="{{ "/static/img/hands-line.svg" | relative_url }}"
-          width="150"
-          height="150"
-          alt=""
-          class="card-icon"
-        />
-        <div class="card-section">
-          <h3 class="card-title">COVID-19</h3>
-          <p>Read our <a href="/covid19-policy/">COVID-19 Policy</a>, including mask and vaccine requirements.</p>
-        </div>
-      </div>
-    </div>
-    {% comment %}
-    <div class="medium-4 column">
-      <div>
-        <img
-          src="{{ "/static/img/program-line.svg" | relative_url }}"
-          width="150"
-          height="150"
-          alt=""
-          class="card-icon"
-        />
-        <div class="card-section">
-            <h3 class="card-title">Conference Schedule</h3>
-            <p>Check out the <a href="/schedule/">conference schedule</a> and start planning your DjangoCon experience!</p>
-        </div>
-      </div>
-    </div>
-    {% endcomment %}
-    <div class="medium-4 column">
-      <div>
-        <img
-          src="{{ "/static/img/heart-line.svg" | relative_url }}"
-          width="150"
-          height="150"
-          alt=""
-          class="card-icon"
-        />
-        <div class="card-section">
-          <h3 class="card-title">Code of Conduct</h3>
-          <p>Participants are expected to be respectful to each other. For details on our expectations, and who to contact if you need assistance, see our <strong><a href="{% link _pages/conduct.html %}">Code of Conduct</a></strong>.</p>
-        </div>
+        <p>BPM 2025 is the 23rd conference in a series that provides the most prestigious forum for researchers and practitioners in the field of Business Process Management.
+
+          Over the past decade, the conference has built its reputation by showcasing leading-edge research of the highest quality together with talks, tutorials and discussions by the most renown thought leaders and innovators in the field. The BPM conference series embraces the diversity and richness of the BPM field and serves as a melting pot for experts from a mix of disciplines including Computer Science, Information Systems Engineering, and Management.</p>
       </div>
     </div>
   </div>
 </section>
 
-{% assign visible_posts = site.posts | where_exp: 'item', 'item != false' %}
 
-{% if visible_posts.size > 0 %}
-<section class="news-section section-pad">
-  <div class="row column v-pad-bottom">
-    <h2 class="text-center">Latest News</h2>
-  </div>
-
-  <div class="news row column">
-    {% for post in visible_posts limit:12 %}
-      {% unless post.hidden or post.category == 'talk' or post.category == 'tutorial' %}
-      <article class="post-item">
-        <time class="post-meta">{{ post.date | date: "%d %b %Y" }}</time>
-        <h3 class="post-title">
-          <a
-            class="post-link"
-            href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h3>
-      </article>
-      {% endunless %}
-    {% endfor %}
-  </div>
-
-  {% if visible_posts.size > 6 %}
-  <div class="row v-pad-top">
-    <div class="medium-4 column medium-centered text-center">
-      <a class="button" href="/news/">View all news</a>
-    </div>
-  </div>
-  {% endif %}
-</section>
-{% endif %}
 
 {% include sponsor-footer.html %}
 

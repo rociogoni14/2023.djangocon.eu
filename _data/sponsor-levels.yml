@@ -1,0 +1,16 @@
+sponsor-levels:
+  - title: Diamond
+  - title: Platinum
+  - title: Audio Visual Sponsor
+  - title: Spanish Speech-to-Text
+  - title: Speech-to-Text
+  - title: Gold
+  - title: Virtual Conference Hall
+  - title: Invitation
+  - title: Speaker Support
+  - title: Silver
+  - title: Bronze
+  - title: Lanyard
+    hidden: true
+  - title: Diversity & Inclusion
+  - title: Community

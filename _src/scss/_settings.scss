@@ -48,7 +48,7 @@
 //  37. Top Bar
 
 $light-gray: #F7F8F9;
-$medium-gray: #EEEFFD;
+$medium-gray: #eeeded;
 $dark-gray: #CACACA;
 $black: #1E1E1E;
 $white: #FFFFFF;
@@ -128,8 +128,8 @@ $djangocon-palette: (
   'black': $black
 );
 
-$body-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, Roboto, 'Helvetica Neue', Arial, sans-serif, Apple Color Emoji, 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-$leading-font: Metamorphous, #{$body-font};
+$body-font: 'Rubik', Helvetica, sans-serif;
+$leading-font: 'Rubik', #{$body-font};
 
 
 $body-background: $white;
@@ -179,7 +179,7 @@ $block-grid-max: 8;
 // ------------------
 
 $header-font-family: $body-font-family;
-$header-font-weight: 500;
+$header-font-weight: 550;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;
@@ -426,7 +426,7 @@ $dropdownmenu-arrow-size: 0.3rem;
 $dropdownmenu-min-width: 260px;
 $dropdownmenu-background: transparent;
 $dropdownmenu-border: none;
-$dropdownmenu-submenu-background: $brand-color3;
+$dropdownmenu-submenu-background: $black;
 
 // 19. Forms
 // ---------
@@ -672,7 +672,7 @@ $thumbnail-radius: 0;
 // 35. Title Bar
 // -------------
 
-$titlebar-background: $brand-color2;
+$titlebar-background: $black;
 $titlebar-color: $white;
 $titlebar-padding: 0;
 $titlebar-text-font-weight: $global-weight-normal;

@@ -1,0 +1,92 @@
+---
+description: 23rd Int. Conference on Business Process Management (BPM 2025)
+heading: How to get there
+layout: base
+permalink: /how_to_get_there/
+---
+
+<header class="subpage-header" style="background-image: url(/image/plane.png); background-size: cover;">
+  <h1>{{ page.heading }}</h1>
+  <br>
+  <br>
+</header>
+
+<div class="content">
+  <br>
+  <br>
+  <div class="row column v-pad-bottom">
+    
+    <div class="medium-6 large-7 column">
+      <p class="lead">
+        Seville is the capital of the southern region of Spain, Andalucía. Therefore, it not only has its own airport but also is well connected with airports nearby such as the Malaga Airport or the Madrid Barajas Airport.
+        There are many ways to arrive in Seville. There are direct flights to Seville Airport from 42 cities, many of them outside Spain, serving more than 15 airlines. There are also frequent connections with Madrid (MAD) and Barcelona (BCN), which are the main airports in Spain.
+        A robust rail network connects Seville with most of other regions of Spain. Therefore, an alternative is flying to either Madrid (MAD) or Malaga (AGP) and then taking a train to Seville. There is a direct train that connects Malaga with Seville in 2 hours and a High Speed Train (AVE) that connects Madrid with Seville in less than 2:30 hours.
+    </p>
+    </div>
+    <div class="medium-5 large-5 column">
+        <div class="text-center partner-cta-box">
+          <img src="/image/terminal.jpg" alt="Hombre en aeropuerto">
+        </div>
+      </div>
+
+  </div>
+  <!-- PRE CONFERENCE -->
+  <!--
+  <div class="row column v-pad-bottom">
+    <div class="row column">
+      <p class="lead">
+        DjangoCon US is only possible through the generosity of the organizations and businesses on this page. Their donations make it possible for us to provide opportunity grants to speakers and attendees, stream and record all talks, add captioning to talks, and so much more. Thank you for your support!
+      </p>
+    </div>
+    {% comment %}
+    <div class="medium-5 large-4 column">
+      <div class="callout text-center partner-cta-box">
+        <h2>Looking for a job?</h2>
+        <p>Some of our sponsors are hiring! Take a look at our virtual jobs board to learn more.</p>
+        <a href="" class="button disabled black">Jobs Board Coming Soon</a>
+      </div>
+    </div>
+    {% endcomment %}
+  </div>
+
+    <div class="section-pad {% cycle 'theme-light-gray', 'theme-medium-gray', 'theme-white' %}">
+  <div class="row partner text-center">
+      <div class="column medium-12">
+        <p>Interested in becoming a sponsor? There's still time!</p>
+        <a href="/sponsors/information/" class="button">Become a Sponsor</a>
+      </div>
+    </div>
+        </div>
+-->
+
+{% for incoming-level in site.data.incoming-levels.incoming-levels %}
+  {% assign incomings_in_level = site.incomings | where: 'level', incoming-level.title | where: 'hidden', false %}
+  {% assign incomings_count = incomings_in_level | size %}
+  {% if incomings_count != 0 %}
+    <div class="section-pad {% cycle 'theme-light-gray', 'theme-white', 'theme-medium-gray'  %}">
+      <h2 class="text-center v-pad-bottom" style="color: black;">{{ incoming-level.title }}</h2>
+      {% for incoming in incomings_in_level %}
+        {% if incoming.level == incoming-level.title %}
+          {% unless incoming.hidden %}
+            <div class="row partner">
+              <div class="column medium-4 text-center">
+                <a href="{{ incoming.url_target }}" rel="sponsored">
+                  <img
+                    class="partner-logo {{ incoming.logo_orientation }}"
+                    src="{{ incoming.logo }}"
+                    alt="{{ incoming.name }} Logo" />
+                </a>
+              </div>
+              <div class="column medium-8">
+                <h3 class="partner-name"><a href="{{ incoming.url_target }}" rel="sponsored" style="color: black;">{{ incoming.name }}</a></h3>
+                {% capture incoming_description %}{{ incoming.description }}{: .partner-description }{% endcapture %}
+                {{ incoming_description | markdownify }}
+              </div>
+            </div>
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}
+</div>

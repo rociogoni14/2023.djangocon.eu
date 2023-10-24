@@ -1,13 +1,13 @@
-title: DjangoCon Europe
+title: 23rd Conference on Business Process Management
 url: "https://2023.djangocon.eu"
-author: DjangoCon Europe
+author: Universidad de Sevilla
 description: |
-  DjangoCon Europe 2023 conference will take place in Edinburgh, Scotland.
-  from May 29th - June 2nd 2023!
+  BPM2025 conference will take place in Seville, Spain.
+  
 enforce_ssl: "2023.djangocon.eu"
 relative_permalinks: false
 permalink: news/:title/ # permalink: date
-timezone: Europe/London
+timezone: Europe/Madrid
 conf_year: 2023
 
 include:
@@ -91,15 +91,33 @@ collections: # process the _data folder
   attendee_links:
     output: false
     permalink: /:collection
+  transports:
+    output: false
+    permalink: /:collection/
+  incomings:
+    output: false
+    permalink: /:collection/
+  stayings:
+    output: false
+    permalink: /:collection/
+  visas:
+    output: false
+    permalink: /:collection/
+  steerings:
+    output: false
+    permalink: /:collection/
+  assistants:
+    output: false
+    permalink: /:collection/
 
 # SEO Plugin settings
 
 twitter:
-  username: DjangoConEurope
+  username: unisevilla
 
 # This is the default logo that people see with opengraph
 # logo: /static/2023-logos/squares-and-social/djangocon-square.png
-logo: /static/img/social/DJC-EU-Banner-og.png
+logo: /image/logo.png
 
 # Frontmatter fallback settings
 # This is the default logo that people see on blog posts
@@ -107,7 +125,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /static/img/social/DJC-EU-Banner-og.png
+      image: /image/logo.png
   - scope:
       path: "_presenters"
       type: presenters
@@ -115,10 +133,10 @@ defaults:
       sitemap: false
 
 # Emails
-conduct_email: "conduct@djangocon.eu"
-contact_us_email: "2023@djangocon.eu"
-content_email: "content@djangocon.eu"
-sponsors_email: "sponsors@djangocon.eu"
+conduct_email: "resinas@us.es"
+contact_us_email: "resinas@us.es"
+content_email: "resinas@us.es"
+sponsors_email: "resinas@us.es"
 
 # Links
 cfp_application: "https://pretalx.com/djangocon-europe-2023/cfp"
