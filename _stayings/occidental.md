@@ -4,9 +4,9 @@ layout: base
 hidden: false
 level: "Hotels"
 name: "Barceló Occidental Sevilla Viapol ★★★★"
-logo: "image/viapol.webp"
-logo2: "image/viapol-2.webp"
-logo3: "image/viapol-3.webp"
+logo: "../image/viapol.webp"
+logo2: "../image/viapol-2.webp"
+logo3: "../image/viapol-3.webp"
 logo_orientation: "landscape"
 url_target: "https://www.barcelo.com/es-es/occidental-sevilla-viapol/?utm_source=google&utm_medium=organic&utm_campaign=my_business&utm_content=30584"
 url_friendly: "https://www.barcelo.com/es-es/occidental-sevilla-viapol/?utm_source=google&utm_medium=organic&utm_campaign=my_business&utm_content=30584"

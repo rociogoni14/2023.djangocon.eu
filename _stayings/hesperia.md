@@ -4,9 +4,9 @@ layout: base
 hidden: false
 level: "Hotels"
 name: "Hesperia Sevilla Hotel ★★★★"
-logo: "image/hesperia.jpg"
-logo2: "image/hesperia-2.jpg"
-logo3: "image/hesperia-3.jpg"
+logo: "../image/hesperia.jpg"
+logo2: "../image/hesperia-2.jpg"
+logo3: "../image/hesperia-3.jpg"
 logo_orientation: "landscape"
 url_target: "https://www.hesperia.com/es/hoteles/espana/sevilla/hotel-hesperia-sevilla?utm_source=GMBsevilla&utm_medium=organic"
 url_friendly: "https://www.hesperia.com/es/hoteles/espana/sevilla/hotel-hesperia-sevilla?utm_source=GMBsevilla&utm_medium=organic"

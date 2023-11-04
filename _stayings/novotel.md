@@ -4,9 +4,9 @@ layout: base
 hidden: false
 level: "Hotels"
 name: "Novotel Sevilla ★★★★"
-logo: "image/novotel.jpg"
-logo2: "image/novotel-2.jpg"
-logo3: "image/novotel-3.jpg"
+logo: "../image/novotel.jpg"
+logo2: "../image/novotel-2.jpg"
+logo3: "../image/novotel-3.jpg"
 logo_orientation: "landscape"
 url_target: "https://www.accorhotels.com/es/hotel-3210-novotel-sevilla-/index.shtml"
 url_friendly: "https://www.accorhotels.com/es/hotel-3210-novotel-sevilla-/index.shtml"

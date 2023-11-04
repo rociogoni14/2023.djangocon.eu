@@ -4,7 +4,7 @@ layout: base
 hidden: false
 level: "How can I get an invitation letter"
 name: ""
-logo: "image/invitation.jpg"
+logo: "../image/invitation.jpg"
 logo_orientation: "landscape"
 url_target: ""
 url_friendly: ""
