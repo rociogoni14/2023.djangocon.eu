@@ -4,7 +4,7 @@ layout: base
 hidden: false
 level: "From Madrid Airport to BPM2025"
 name: "Iryo"
-logo: "/image/iryo-logo.svg"
+logo: "image/iryo-logo.svg"
 logo_orientation: "landscape"
 url_target: "https://iryo.eu/es/home"
 url_friendly: "https://iryo.eu/es/home"

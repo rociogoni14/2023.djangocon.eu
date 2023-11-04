@@ -4,7 +4,7 @@ layout: base
 hidden: false
 level: "How do I apply for a visa?"
 name: ""
-logo: "/image/passport.jpg"
+logo: "image/passport.jpg"
 logo_orientation: "landscape"
 url_target: ""
 url_friendly: ""

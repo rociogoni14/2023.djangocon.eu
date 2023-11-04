@@ -4,7 +4,7 @@ layout: base
 hidden: false
 level: "From Madrid Airport to BPM2025"
 name: "Plane"
-logo: "/image/iberia-logo.jpg"
+logo: "image/iberia-logo.jpg"
 logo_orientation: "landscape"
 url_target: "https://www.iberiaexpress.com/en"
 url_friendly: "https://www.iberiaexpress.com/en"
