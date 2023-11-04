@@ -118,7 +118,7 @@ twitter:
 
 # This is the default logo that people see with opengraph
 # logo: /static/2023-logos/squares-and-social/djangocon-square.png
-logo: /image/logo.png
+logo: ../image/logo.png
 
 # Frontmatter fallback settings
 # This is the default logo that people see on blog posts
