@@ -126,7 +126,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /image/logo.png
+      image: ../image/logo.png
   - scope:
       path: "_presenters"
       type: presenters
