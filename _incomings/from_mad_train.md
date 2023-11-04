@@ -4,7 +4,7 @@ layout: base
 hidden: false
 level: "From Madrid Airport to BPM2025"
 name: "Train"
-logo: "image/renfe-logo.jpeg"
+logo: "../image/renfe-logo.jpeg"
 logo_orientation: "landscape"
 url_target: "https://www.renfe.com/es/es"
 url_friendly: "https://www.renfe.com/es/es"

@@ -4,7 +4,7 @@ layout: base
 hidden: false
 level: "From Seville Airport to BPM2025"
 name: "Bus"
-logo: "image/tussam-EA.png"
+logo: "../image/tussam-EA.png"
 logo_orientation: "landscape"
 url_target: "http://www.tussam.es/uploads/pdf/HORARIOLINEAAEROPUERTO.pdf"
 url_friendly: "http://www.tussam.es/uploads/pdf/HORARIOLINEAAEROPUERTO.pdf"

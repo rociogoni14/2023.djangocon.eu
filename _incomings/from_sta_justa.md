@@ -4,7 +4,7 @@ layout: base
 hidden: false
 level: "Santa Justa Train Station (Seville)"
 name: ""
-logo: "image/sta-justa.jpg"
+logo: "../image/sta-justa.jpg"
 logo_orientation: "landscape"
 url_target: "https://www.iberiaexpress.com/en"
 url_friendly: "https://www.iberiaexpress.com/en"
