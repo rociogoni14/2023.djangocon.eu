@@ -29,5 +29,5 @@ Substitutions may be made at any time and without any fees. They have to be requ
 
 All refund and cancellation requests must be sent to bpm2020@us.es. There will be no refund after July 20, 2020, including non-arrivals. Note that if you are an author and cancel your publication fee, the articles included in it will not be presented at the conference nor included in the proceedings.
 
-Check the [registration terms and conditions]({{ site.baseurl }}{% link pages/terms.md %})
+Check the [registration terms and conditions]({{ site.baseurl }}/terms.md )
 
