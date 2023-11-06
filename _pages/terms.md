@@ -24,11 +24,11 @@ Children under 18 years of age are not permitted to register, enter or attend an
 
 ### Substitution of participants
 
-Substitutions may be made at any time and without any fees. They have to be requested by sending an email to resinas@us.es at least 24 hours before the event begins.
+Substitutions may be made at any time and without any fees. They have to be requested by sending an email to bpm2020@us.es at least 24 hours before the event begins.
 
 ### Cancellation / Reimbursement Policy
 
-All refund and cancellation requests must be sent to resinas@us.es. There will be no refund after July 24, 2025, including non-arrivals. Note that if you are an author and cancel your publication fee, the articles included in it will not be presented at the conference nor included in the proceedings.
+All refund and cancellation requests must be sent to bpm2020@us.es. There will be no refund after July 24, 2020, including non-arrivals. Note that if you are an author and cancel your publication fee, the articles included in it will not be presented at the conference nor included in the proceedings.
 
 ### Privacy
 
