@@ -15,19 +15,19 @@ To enable event organizers to monitor and control attendance, and provide servic
 
 Conference registration includes access to technical sessions and all conference events (including Research Track, Workshops, RPA, Blockchain and Industry Forums, Tutorials, Demos & Resources, and Doctoral Consortium), as well as online discussions and is **FREE and MANDATORY** for all participants: 
 
-<a class="button" href="{{ site.ticket_link }}" target="_blank">Buy Tickets Now!</a>
+<div style="text-align: center"><a class="button" href="{{ site.ticket_link }}" target="_blank">Buy Tickets Now!</a></div>
 
 Besides conference registration, there is a publication fee associated to each paper that is presented in BPM 2020 including Research Track, Workshops, RPA, Blockchain and Industry Forums, and Demos & Resources (tutorials and Doctoral Consortium are free of charge). The publication fee has to be paid for each paper by only one of the authors. If one author has several papers, he or she needs to pay for each of them separately. **The publication in the proceedings and presentation at the conference is subject to the payment of the publication fee before July, 20th**. Payment is possible by VISA and MasterCard credit cards and is processed through the Santander España Merchant Services payment gateway called Redsys:
-<div style="text-align: center"><a href="{{ site.baseurl }}/authorRegistration.md" class="button">Author fees</a></div>
+<div style="text-align: center"><a href="{{ site.baseurl }}/authorRegistration" class="button">Author fees</a></div>
 
-If you have any question concerning the registration please contact resinas@us.es
+If you have any question concerning the registration please contact **resinas@us.es**.
 
 
 ## Substitution, cancellation and reimbursement policy
 
-Substitutions may be made at any time and without any fees. They have to be requested by sending an email to resinas@us.es at least 24 hours before the event begins.
+Substitutions may be made at any time and without any fees. They have to be requested by sending an email to **resinas@us.es** at least 24 hours before the event begins.
 
-All refund and cancellation requests must be sent to resinas@us.es. There will be no refund after July 20, 2025, including non-arrivals. Note that if you are an author and cancel your publication fee, the articles included in it will not be presented at the conference nor included in the proceedings.
+All refund and cancellation requests must be sent to **resinas@us.es**. There will be no refund after July 20, 2025, including non-arrivals. Note that if you are an author and cancel your publication fee, the articles included in it will not be presented at the conference nor included in the proceedings.
 
-Check the <a href="{{ site.baseurl }}/terms.md" >registration terms and conditions</a>
+Check the <a href="{{ site.baseurl }}/terms" >registration terms and conditions</a>
 
