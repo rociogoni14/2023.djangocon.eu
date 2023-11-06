@@ -1,7 +1,7 @@
 ---
 layout: default
 show_meta: false
-title: "Publication Fees Information"
+title: "Publication Fees Registration"
 subheadline: "18th Int. Conference on Business Process Management (BPM 2020)"
 #teaser: ""
 permalink: "/authorRegistration/"
@@ -396,7 +396,7 @@ permalink: "/authorRegistration/"
                      </td>
                   </tr>
 
-                
+                {% include _registrationForm.html %}
                   <input type="hidden" id="array" name="array" value="">
                </table> 
             </td>
@@ -433,7 +433,7 @@ permalink: "/authorRegistration/"
                      </td>
                      <td >
                         <label class="required_ofc" for="terms">
-                        I accept the <a href="{{ domain }}{{ site.baseurl }}/terms/" target="_blank">terms and conditions of the BPM 2020 conference.</a>
+                        I accept the <a href="{{ domain }}{{ site.baseurl }}/terms/" target="_blank">terms and conditions of the BPM 2025 conference.</a>
                         </label>
                     </td>
                   </tr>
@@ -442,7 +442,7 @@ permalink: "/authorRegistration/"
         </tr>
          <tr >
             <td colspan="2">
-                Review the information above and submit the form to continue. If you have any question concerning the author fees please contact bpm2020@us.es<br><br>
+                Review the information above and submit the form to continue. If you have any question concerning the author fees please contact resinas@us.es<br><br>
             <input type="submit" class="button" onclick="prepareSubmission(); storedata()" value="Continue" id="submitbutton"> 
             </td>
         </tr>

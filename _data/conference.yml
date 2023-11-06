@@ -1,0 +1,987 @@
+- title: Research track
+  idCheckbox: first
+  namecheckbox: first
+  valueCheckbox: first
+  idtable: text
+  price: 200
+  hidden: false
+  table:
+    - tr: paper1Reserch
+      idPaper: researchpaper1
+      namePaper: researchpaper1
+      valuePaper: a11
+      paperText: "Adding Intelligent Robots to Business Processes: A Dilemma Analysis of Employees’ Attitudes."
+      author: Amy Van Looy
+      
+    - tr: paper2Reserch
+      idPaper: researchpaper2
+      namePaper: researchpaper2
+      valuePaper: a12
+      paperText: "Online Process Monitoring Using Incremental State-Space Expansion: An Exact Algorithm"
+      author: Daniel Schuster and Sebastiaan J. van Zelst
+     
+    - tr: paper3Reserch
+      idPaper: researchpaper3
+      namePaper: researchpaper3
+      valuePaper: a13
+      paperText: Automatic Repair of Same-Timestamp Errors in Business Process Event Logs
+      author: Raffaele Conforti, Marcello La Rosa, Arthur H.M. ter Hofstede and Adriano Augusto
+      
+    - tr: paper4Reserch
+      idPaper: researchpaper4
+      namePaper: researchpaper4
+      valuePaper: a14
+      paperText: "Event Log Generation in a Health System: a Case Study"
+      author: Simon Remy, Luise Pufahl, Jan Philipp Sachs, Erwin Böttinger and Mathias Weske
+      
+    - tr: paper5Reserch
+      idPaper: researchpaper5
+      namePaper: researchpaper5
+      valuePaper: a15
+      paperText: A typological framework of process improvement project stakeholders
+      author: Charon Abbott, Wasana Bandara, Paul Mathiesen, Erica French and Mary Tate
+      
+    - tr: paper6Reserch
+      idPaper: researchpaper6
+      namePaper: researchpaper6
+      valuePaper: a16
+      paperText: "BP-IT Alignment in SMEs: a Game-based Learning Approach to Increase Stakeholders Maturity"
+      author: Mahi Ismail and Ralf Klischewski
+
+    - tr: paper7Reserch
+      idPaper: researchpaper7
+      namePaper: researchpaper7
+      valuePaper: a17
+      paperText: Incentive Alignment of Business Processes
+      author: Tobias Heindel and Ingo Weber
+
+    - tr: paper8Reserch
+      idPaper: researchpaper8
+      namePaper: researchpaper8
+      valuePaper: a18
+      paperText: Analyzing Process Concept Drifts Based on Sensor Event Streams During Runtime
+      author: Florian Stertz, Stefanie Rinderle-Ma and Juergen Mangler
+
+    - tr: paper9Reserch
+      idPaper: researchpaper9
+      namePaper: researchpaper9
+      valuePaper: a19
+      paperText: "PRIPEL: Privacy-Preserving Event Log Publishing Including Contextual Information"
+      author: Stephan A. Fahrenkrog-Petersen, Han van der Aa and Matthias Weidlich
+
+    - tr: paper10Reserch
+      idPaper: researchpaper10
+      namePaper: researchpaper10
+      valuePaper: a20
+      paperText: A Framework for Estimating Simplicity of Automatically Discovered Process Models Based on Structural and Behavioral Characteristics
+      author: Anna Kalenkova, Artem Polyvyanyy and Marcello La Rosa
+
+    - tr: paper11Reserch
+      idPaper: researchpaper11
+      namePaper: researchpaper11
+      valuePaper: a21
+      paperText: "Video-to-Model: Unsupervised Trace Extraction from Videos for Process Discovery and Conformance Checking in Manual Assembly"
+      author: Sönke Knoch, Shreeraman Ponpathirkoottam and Tim Schwartz
+
+    - tr: paper12Reserch
+      idPaper: researchpaper12
+      namePaper: researchpaper12
+      valuePaper: a22
+      paperText: "Looking for Meaning: Discovering Action-Response-Effect Patterns in Business Processes"
+      author: Jelmer Jan Koorn, Xixi Lu, Henrik Leopold and Hajo A. Reijers
+
+    - tr: paper13Reserch
+      idPaper: researchpaper13
+      namePaper: researchpaper13
+      valuePaper: a23
+      paperText: Quo vadis, Business Process Maturity Model? Learning from the Past to Envision the Future
+      author: Vanessa Felch and Björn Asdecker
+
+    - tr: paper14Reserch
+      idPaper: researchpaper14
+      namePaper: researchpaper14
+      valuePaper: a24
+      paperText: Socially-Aware Business Process Redesign
+      author: Arik Senderovich, Joop J. Schippers and Hajo A. Reijers
+
+    - tr: paper15Reserch
+      idPaper: researchpaper15
+      namePaper: researchpaper15
+      valuePaper: a25
+      paperText: Extracting Annotations from Textual Descriptions of Processes
+      author: Luis Quishpi, Josep Carmona and Lluís Padró
+
+    - tr: paper16Reserch
+      idPaper: researchpaper16
+      namePaper: researchpaper16
+      valuePaper: a26
+      paperText: A Consolidated Framework for Implementing Robotic Process Automation Projects
+      author: Lukas-Valentin Herm, Kevin Fuchs, Alexander Helm, Adrian Hofmann, Florian Imgrund, Christian Janiesch and Axel Winkelmann
+
+    - tr: paper17Reserch
+      idPaper: researchpaper17
+      namePaper: researchpaper17
+      valuePaper: a27
+      paperText: Understanding Quality in Declarative Process Modeling Through the Mental Models of Experts
+      author: Amine Abbad Andaloussi, Christopher J. Davis, Andrea Burattin, Hugo A. López, Tijs Slaats and Barbara Weber
+
+    - tr: paper18Reserch
+      idPaper: researchpaper18
+      namePaper: researchpaper18
+      valuePaper: a28
+      paperText: Extending Temporal Business Constraints with Uncertainty
+      author: Fabrizio Maria Maggi, Marco Montali, Rafael Peñaloza and Anti Alman
+
+    - tr: paper19Reserch
+      idPaper: researchpaper19
+      namePaper: researchpaper19
+      valuePaper: a29
+      paperText: "Predictive Business Process Monitoring via Generative Adversarial Nets: The Case of Next Event Prediction"
+      author: Farbod Taymouri, Marcello La Rosa, Sarah Erfani, Zahra Dasht Bozorgi and Ilya Verenich
+
+    - tr: paper20Reserch
+      idPaper: researchpaper20
+      namePaper: researchpaper20
+      valuePaper: a30
+      paperText: Explorative Process Design Patterns
+      author: Michael Rosemann
+    
+    - tr: paper21Reserch
+      idPaper: researchpaper21
+      namePaper: researchpaper21
+      valuePaper: a31
+      paperText: Exploring Interpretable Predictive Models for Business Processes
+      author: Renuka Sindhgatta, Catarina Moreira, Chun Ouyang and Alistair Barros
+
+    - tr: paper22Reserch
+      idPaper: researchpaper22
+      namePaper: researchpaper22
+      valuePaper: a32
+      paperText: "Enhancing Event Log Quality: Detecting and Quantifying Timestamp Imperfections"
+      author: Dominik Andreas Fischer, Kanika Goel, Robert Andrews, Chrisopher Gerhard Johannes van Dun, Moe Thandar Wynn and Maximilian Röglinger
+
+    - tr: paper23Reserch
+      idPaper: researchpaper23
+      namePaper: researchpaper23
+      valuePaper: a33
+      paperText: "TADE: Stochastic Conformance Checkingusing Temporal Activity Density Estimation"
+      author: Florian Richter, Janina Sontheim, Ludwig Zellner and Thomas Seidl
+
+    - tr: paper24Reserch
+      idPaper: researchpaper24
+      namePaper: researchpaper24
+      valuePaper: a34
+      paperText: "Triggering Proactive Business Process Adaptations via Online Reinforcement Learning"
+      author: Andreas Metzger, Tristan Kley and Alexander Palm
+
+    - tr: paper25Reserch
+      idPaper: researchpaper25
+      namePaper: researchpaper25
+      valuePaper: a35
+      paperText: How to Keep RPA Maintainable?
+      author: Philip Noppen, Iris Beerepoot, Inge van de Weerd, Mathieu Jonker and Hajo A. Reijers
+
+    - tr: paper26Reserch
+      idPaper: researchpaper26
+      namePaper: researchpaper26
+      valuePaper: a36
+      paperText: A Multi Perspective Framework for Enhanced Supply Chain Analytics
+      author: Owen Keates, Moe Thandar Wynn and Wasana Bandara
+
+    - tr: paper27Reserch
+      idPaper: researchpaper27
+      namePaper: researchpaper27
+      valuePaper: a37
+      paperText: "Petri Nets with Parameterised Data: Modelling and Verification"
+      author: Silvio Ghilardi, Alessandro Gianola, Marco Montali and Andrey Rivkin
+      
+- title: RPA Forum
+  idCheckbox: second
+  namecheckbox: second
+  valueCheckbox: second
+  idtable: text2
+  price: 100
+  hidden: false
+  table:
+    - tr: paper1Rpa
+      idPaper: rpapaper1
+      namePaper: rpapaper1
+      valuePaper: b11
+      paperText: Conversational Digital Assistant for Intelligent Process Automation
+      author: Yara Rizk, Scott Boag, Vatche Isahagian, Rania Khalaf, Yasaman Khazaeni, Vinod Muthusamy and Merve Unuvar
+
+    - tr: paper2Rpa
+      idPaper: rpapaper2
+      namePaper: rpapaper2
+      valuePaper: b12
+      paperText: Is Robotic Process Automation becoming intelligent? Early evidence of influences of Artificial Intelligence on Robotic Process Automation
+      author: Johannes Viehhauser
+
+    - tr: paper3Rpa
+      idPaper: rpapaper3
+      namePaper: rpapaper3
+      valuePaper: b13
+      paperText: Automated Generation of Executable RPA Scripts from User Interface Logs
+      author: Simone Agostinelli, Marco Lupia, Andrea Marrella and Massimo Mecella
+
+    - tr: paper4Rpa
+      idPaper: rpapaper4
+      namePaper: rpapaper4
+      valuePaper: b14
+      paperText: Integrating Robotic Process Automation into Business Process Management
+      author: Maximilian König, Leon Bein, Adriatik Nikaj and Mathias Weske
+
+    - tr: paper5Rpa
+      idPaper: rpapaper5
+      namePaper: rpapaper5
+      valuePaper: b15
+      paperText: "How to Trust a Bot: An RPA User Perspective"
+      author: Rehan Syed and Moe Wynn
+
+    - tr: paper6Rpa
+      idPaper: rpapaper6
+      namePaper: rpapaper6
+      valuePaper: b16
+      paperText: Towards a taxonomy of Cognitive RPA Components
+      author: Antonio Martínez Rojas, Irene Barba Rodríguez and José González Enriquez
+
+    - tr: paper7Rpa
+      idPaper: rpapaper7
+      namePaper: rpapaper7
+      valuePaper: b17
+      paperText: An OpenSource Logger for the Analysis of RPA Projects
+      author: José Manuel López Carnicer, Carmelo Del Valle Sevillano and José González Enríquez
+
+    - tr: paper8Rpa
+      idPaper: rpapaper8
+      namePaper: rpapaper8
+      valuePaper: b18
+      paperText: "Beyond the Hype: RPA Horizon for Robot-Human interaction"
+      author: Rafael Cabello Ruíz, María José Escalona Cuaresma and José González Enríquez
+
+    - tr: paper9Rpa
+      idPaper: rpapaper9
+      namePaper: rpapaper9
+      valuePaper: b19
+      paperText: A framework for evaluating the suitability of process activities for robotic process automation
+      author: Christian Wellmann, Matthias Stierle, Sebastian Dunzer and Martin Matzner
+
+    - tr: paper10Rpa
+      idPaper: rpapaper10
+      namePaper: rpapaper10
+      valuePaper: b20
+      paperText: From Robotic Process Automation to Intelligent Process Automation
+      author: Tathagata Chakraborti, Vatche Ishakian, Rania Khalaf, Yasaman Khazaeni, Vinod Vinod Muthusamy, Yara Rizk and Merve Unuvar
+
+- title: Blockchain Forum 
+  idCheckbox: third
+  namecheckbox: third
+  valueCheckbox: third
+  idtable: text3
+  hidden: false
+  price: 100
+  table:
+  - tr: paper1block
+    idPaper: blockpaper1
+    namePaper: blockpaper1
+    valuePaper: c11
+    paperText: Silver Bullet for all Trust Issues? Blockchain-based Trust Patterns for Collaborative Business Processes
+    author: Marcel Müller, Nadine Ostern and Michael Rosemann
+
+  - tr: paper2block
+    idPaper: blockpaper2
+    namePaper: blockpaper2
+    valuePaper: c12
+    paperText: "Blockchain Oracles: A Framework for Blockchain-Based Applications"
+    author: Kamran Mammadzada, Mubashar Iqbal, Fredrik Milani, Luciano García-Bañuelos and Raimundas Matulevičius
+
+  - tr: paper3block
+    idPaper: blockpaper3
+    namePaper: blockpaper3
+    valuePaper: c13
+    paperText: "Foundational Oracle Patterns: Connecting Blockchain to the Off-chain World"
+    author: Roman Mühlberger, Stefan Bachhofner, Eduardo Castelló Ferrer, Claudio Di Ciccio, Ingo Weber, Maximilian Wöhrer and Uwe Zdun
+
+  - tr: paper4block
+    idPaper: blockpaper4
+    namePaper: blockpaper4
+    valuePaper: c14
+    paperText: The Role of Modeling in Blockchain Process Design
+    author: Ruben Post, Stijn Kas and Koen Smit
+
+  - tr: paper5block
+    idPaper: blockpaper5
+    namePaper: blockpaper5
+    valuePaper: c15
+    paperText: External Data Monitoring Using Oracles in Blockchain-Based Process Execution
+    author: Jan Ladleif, Ingo Weber and Mathias Weske
+
+- title: Industry Forum
+  idCheckbox: fourth
+  namecheckbox: fourth
+  valueCheckbox: fourth
+  idtable: text4
+  hidden: false
+  price: 100
+  table:
+  - tr: paper1industry
+    idPaper: industrypaper1
+    namePaper: industrypaper1
+    valuePaper: d11
+    paperText: Trace Clustering for an Online Freight Exchange at TIMOCOM
+    author: Jens Brunk, Caroline Methner, Ann-Kristin Cordes, Sven Thiermann and Tobias Goerke
+
+  - tr: paper2industry
+    idPaper: industrypaper2
+    namePaper: industrypaper2
+    valuePaper: d12
+    paperText: Process Mining for Production Processes in the Automotive Industry
+    author: Merih Seran Uysal, Sebastiaan J. van Zelst, Tobias Brockhoff, Anahita Farhang Ghahfarokhi, Mahsa Pourbafrani, Ruben Schumacher, Sebastian Junglas, Günther Schuh and Wil M.P. van der Aalst
+
+  - tr: paper3industry
+    idPaper: industrypaper3
+    namePaper: industrypaper3
+    valuePaper: d13
+    paperText: Geo-Enabled Business Process Modeling
+    author: Behshid Behkamal, Asef Pourmasoomi, Mehdi Akbarian Rastaghi, Mohsen Kahani, Hamid Reza Motahari-Nezhad, Mohammad Allahbakhsh and Issa Najafi
+
+  - tr: paper4industry
+    idPaper: industrypaper4
+    namePaper: industrypaper4
+    valuePaper: d14
+    paperText: Energy-KPI tracking in building construction processes using Adaptive Case Management
+    author: Antonio Manuel Gutierrez, Christoph Ruhsam, Simon Fallmann, Anna Shadrina and Gerhard Zucker
+
+  - tr: paper5industry
+    idPaper: industrypaper5
+    namePaper: industrypaper5
+    valuePaper: d15
+    paperText: Process Mining Applied to Process Redesign in a Domestic Navigation Business Company
+    author: Wesley Santos, Flavia Santoro, Vinicius Abreu and Leandro Barral
+
+  - tr: paper6industry
+    idPaper: industrypaper6
+    namePaper: industrypaper6
+    valuePaper: d16
+    paperText: "‘Means’ for achieving process modelling success: Insights from a large Australian bank"
+    author: Wasana Bandara, John Merideth and Elizabeth Holmes
+
+  - tr: paper7industry
+    idPaper: industrypaper7
+    namePaper: industrypaper7
+    valuePaper: d17
+    paperText: Flexibility, Adherence and Guidance for Regulated Processes with Case Management
+    author: Johannes Tenschert and Michelle Hormesch
+  
+  - tr: paper8industry
+    idPaper: industrypaper8
+    namePaper: industrypaper8
+    valuePaper: d18
+    paperText: "Enhancing communication of complex services through process modelling practices: Insights from an Australian Higher Education Institution"
+    author: Felipe Masana, Wasana Bandara and Joanne Allbutt
+
+- title: BPM Forum
+  idCheckbox: fifth
+  namecheckbox: fifth
+  valueCheckbox: fifth
+  idtable: text5
+  hidden: false
+  price: 100
+  table:
+  - tr: bpmpaper1
+    idPaper: paper1bpm
+    namePaper: paper1bpm
+    valuePaper: e11
+    paperText: "IT Culture and BPM Adoption in Organizations"
+    author: Brian Letts and Vu Tran
+
+  - tr: bpmpaper2
+    idPaper: paper2bpm
+    namePaper: paper2bpm
+    valuePaper: e12
+    paperText: "Dynamic Process Synchronization using BPMN 2.0 to Support Buffering and (Un)Bundling in Manufacturing"
+    author: Konstantinos Traganos, Dillan Spijkers, Paul Grefen and Irene Vanderfeesten
+
+  - tr: bpmpaper3
+    idPaper: paper3bpm
+    namePaper: paper3bpm
+    valuePaper: e13
+    paperText: A causal mechanism approach to explain business process adoption and rejection phenomena
+    author: Andreas Brönnimann
+      
+  - tr: bpmpaper4
+    idPaper: paper4bpm
+    namePaper: paper4bpm
+    valuePaper: e14
+    paperText: Predictive Process Mining meets Computer Vision
+    author: Vincenzo Pasquadibisceglie, Annalisa Appice, Giovanna Castellano and Donato Malerba
+
+  - tr: bpmpaper5
+    idPaper: paper5bpm
+    namePaper: paper5bpm
+    valuePaper: e15
+    paperText: "Digital Transformation and Business Process Innovation: A Car Rental Company Case Study"
+    author: Silvia Bogea Gomes, Paulo Pinto, Flavia Maria Santoro and Miguel Mira da Silva
+
+  - tr: bpmpaper6
+    idPaper: paper6bpm
+    namePaper: paper6bpm
+    valuePaper: e16
+    paperText: Feature Development in BPMN-based Process-Driven Applications
+    author: Konrad Schneid, Sebastian Thöne and Herbert Kuchen
+
+  - tr: bpmpaper7
+    idPaper: paper7bpm
+    namePaper: paper7bpm
+    valuePaper: e17
+    paperText: Bayesian Network based Predictions of Business Processes
+    author: Stephen Pauwels and Toon Calders
+
+  - tr: bpmpaper8
+    idPaper: paper8bpm
+    namePaper: paper8bpm
+    valuePaper: e18
+    paperText: A Theoretical Model for Business Process Standardization
+    author: Bastian Wurm and Jan Mendling
+
+  - tr: bpmpaper9
+    idPaper: paper9bpm
+    namePaper: paper9bpm
+    valuePaper: e19
+    paperText: "Explainability in Predictive Process Monitoring: When Understanding Helps Improving"
+    author: Williams Rizzi, Chiara Di Francescomarino and Fabrizio Maria Maggi
+
+  - tr: bpmpaper10
+    idPaper: paper10bpm
+    namePaper: paper10bpm
+    valuePaper: e20
+    paperText: Discovering Activities from Emails Based on Pattern Discovery Approach
+    author: Marwa Elleuch, Oumaima Alaoui Ismaili, Nassim Laga, Walid Gaaloul and Boualem Benatallah
+
+  - tr: bpmpaper11
+    idPaper: paper11bpm
+    namePaper: paper11bpm
+    valuePaper: e21
+    paperText: Conformance checking using activity and trace embeddings
+    author: Jari Peeperkorn, Seppe Vanden Broucke and Jochen De Weerdt
+
+  - tr: bpmpaper12
+    idPaper: paper12bpm
+    namePaper: paper12bpm
+    valuePaper: e22
+    paperText: "Shared Data Objects in Business Processes: Semantics and Implications"
+    author: Stephan Haarmann and Mathias Weske
+
+  - tr: bpmpaper13
+    idPaper: paper13bpm
+    namePaper: paper13bpm
+    valuePaper: e23
+    paperText: "Say It In Your Own Words: Defining Declarative Process Models Using Speech Recognition"
+    author: Han van der Aa, Karl Johannes Balder, Fabrizio Maria Maggi and Alexander Nolte
+
+  - tr: bpmpaper14
+    idPaper: paper14bpm
+    namePaper: paper14bpm
+    valuePaper: e24
+    paperText: "IoT-Based Activity Recognition for Process Assistance in Human-Robot Disaster Response"
+    author: Adrian Rebmann, Jana-Rebecca Rehse, Mira Pinter, Marius Schnaubelt, Kevin Daun and Peter Fettke
+
+  - tr: bpmpaper15
+    idPaper: paper15bpm
+    namePaper: paper15bpm
+    valuePaper: e25
+    paperText: Privacy-Preserving Data Publishing in Process Mining
+    author: Majid Rafiei and Wil M.P. van der Aalst
+
+  - tr: bpmpaper16
+    idPaper: paper16bpm
+    namePaper: paper16bpm
+    valuePaper: e26
+    paperText: Prescriptive Business Process Monitoring for Recommending Next Best Actions
+    author: Sven Weinzierl, Sebastian Dunzer, Sandra Zilker and Martin Matzner
+
+  - tr: bpmpaper17
+    idPaper: paper17bpm
+    namePaper: paper17bpm
+    valuePaper: e27
+    paperText: "Process mining adoption: A technology continuity versus discontinuity perspective"
+    author: Rehan Syed, Sander J.J. Leemans, Rebekah Eden and Joos A.C.M. Buijs
+
+  - tr: bpmpaper18
+    idPaper: paper18bpm
+    namePaper: paper18bpm
+    valuePaper: e28
+    paperText: Holistic Guidelines for Selecting and Adapting BPM Maturity Models (BPM MMs)
+    author: Wasana Bandara, Amy Van Looy, John Merideth and Lara Meyers
+
+  - tr: bpmpaper19
+    idPaper: paper19bpm
+    namePaper: paper19bpm
+    valuePaper: e29
+    paperText: Analyzing a Helpdesk Process through the Lens of Actor Handoff Patterns
+    author: Akhil Kumar and Siyuan Liu
+
+- title: Demos & Resources
+  idCheckbox: sixth
+  namecheckbox: sixth
+  valueCheckbox: sixth
+  idtable: text6
+  hidden: false
+  price: 100
+  table:
+  - tr: paper1demo
+    idPaper: demopaper1
+    namePaper: demopaper1
+    valuePaper: f11
+    paperText: "Celonis Process Repository: A Bridge between Business Process Management and Process Mining"
+    author: Peyman Badakhshan, Jerome Geyer-Klingeberg, Muhammad El-Halaby, Thomas Lutzeyer and Gabriela Vianna Lembo Affonseca
+
+  - tr: paper2demo
+    idPaper: demopaper2
+    namePaper: demopaper2
+    valuePaper: f12
+    paperText: "Shareprom: A Tool for Privacy-Preserving Inter-Organizational Process Mining"
+    author: Gamal Elkoumy, Stephan A. Fahrenkrog-Petersen, Marlon Dumas, Peeter Laud, Alisa Pankova and Matthias Weidlich
+
+  - tr: paper3demo
+    idPaper: demopaper3
+    namePaper: demopaper3
+    valuePaper: f13
+    paperText: "PMSD: Data-Driven Simulation Using System Dynamics and Process Mining"
+    author: Mahsa Pourbafrani and Wil M.P. van der Aalst
+
+  - tr: paper4demo
+    idPaper: demopaper4
+    namePaper: demopaper4
+    valuePaper: f14
+    paperText: Interactive Process Clustering with t-SNE
+    author: Steffen Schuhmann, Jana-Rebecca Rehse, Sebastian Baumann and Peter Fettke
+
+  - tr: paper5demo
+    idPaper: demopaper5
+    namePaper: demopaper5
+    valuePaper: f15
+    paperText: Dynamic Pattern-based Case Filters using Regular Expressions
+    author: Thomas Vogelgesang, Janina Nakladal, Jerome Geyer-Klingeberg and Peyman Badakhshan
+
+  - tr: paper6demo
+    idPaper: demopaper6
+    namePaper: demopaper6
+    valuePaper: f16
+    paperText: Practical Aspect of Privacy-Preserving Data Publishing in Process Mining
+    author: Majid Rafiei and Wil M.P. van der Aalst
+
+  - tr: paper7demo
+    idPaper: demopaper7
+    namePaper: demopaper7
+    valuePaper: f17
+    paperText: "MQTT-XES: Real-time Telemetry for Process Event Data"
+    author: Andrea Burattin, Martin Eigenmann, Ronny Seiger and Barbara Weber
+
+  - tr: paper8demo
+    idPaper: demopaper8
+    namePaper: demopaper8
+    valuePaper: f18
+    paperText: "Robidium: Automated Synthesis of Robotic Process Automation Scripts from UI Logs"
+    author: Volodymyr Leno, Stanislav Deviatykh, Artem Polyvyanyy, Marcello La Rosa, Marlon Dumas and Fabrizio Maggi
+
+  - tr: paper9demo
+    idPaper: demopaper9
+    namePaper: demopaper9
+    valuePaper: f19
+    paperText: "BCIT: A Tool to Recommend Compliant Business Processes based on Process Adaption"
+    author: Tobias Seyffarth and Kai Raschke
+
+  - tr: paper10demo
+    idPaper: demopaper10
+    namePaper: demopaper10
+    valuePaper: f20
+    paperText: "RegMiner: Taming the Complexity of Regulatory Documents for Digitalized Compliance Management"
+    author: Karolin Winter, Manuel Gall and Stefanie Rinderle-Ma
+
+  - tr: paper11demo
+    idPaper: demopaper11
+    namePaper: demopaper11
+    valuePaper: f21
+    paperText: "SVIPEX: A Web Service for Discovering and Visualizing Instance Spanning Constraints based on Process Execution Logs"
+    author: Florian Stertz, Karolin Winter and Stefanie Rinderle-Ma
+
+  - tr: paper12demo
+    idPaper: demopaper12
+    namePaper: demopaper12
+    valuePaper: f22
+    paperText: "Declo: A Chatbot for User-friendly Specification of Declarative Process Models"
+    author: Anti Alman, Karl Johannes Balder, Fabrizio Maria Maggi and Han van der Aa
+
+  - tr: paper13demo
+    idPaper: demopaper13
+    namePaper: demopaper13
+    valuePaper: f23
+    paperText: "Pertuniti: Subprocess modeling and hierarchic case management"
+    author: Johannes Tenschert and Sophia Marmaridis 
+
+- title: Workshop on Security and Privacy-enhanced Business Process Management
+  idCheckbox: seventh
+  namecheckbox: seventh
+  valueCheckbox: seventh
+  idtable: text7
+  hidden: false
+  price: 100
+  table:
+  - tr: paper1work1
+    idPaper: work1paper1
+    namePaper: work1paper1
+    valuePaper: g11
+    paperText: Data Minimisation as Privacy and Trust Instrument in Business Processes
+    author: Rashid Zaman, Marwan Hassani and Boudewijn Van Dongen
+
+  - tr: paper2work1
+    idPaper: work1paper2
+    namePaper: work1paper2
+    valuePaper: g12
+    paperText: Decentralized Data Access with IPFS and Smart Contract Permission Management for Electronic Health Records
+    author: Michael Verdonck and Geert Poels
+
+  - tr: paper3work1
+    idPaper: work1paper3
+    namePaper: work1paper3
+    valuePaper: g13
+    paperText: Verifiable Multi-Party Business Process Automation
+    author: Joosep Simm, Jamie Steiner and Ahto Truu
+
+- title: Workshop on Social and Human Aspects of Business Process Management 
+  idCheckbox: eighth
+  namecheckbox: eighth
+  valueCheckbox: eighth
+  idtable: text8
+  hidden: false
+  price: 100
+  table:
+  - tr: paper1work2
+    idPaper: work2paper1
+    namePaper: work2paper1
+    valuePaper: h11
+    paperText: A Classification of Digital-Oriented Work Practices.
+    author: Pooria Jafari and Amy Van Looy
+
+  - tr: paper2work2
+    idPaper: work2paper2
+    namePaper: work2paper2
+    valuePaper: h12
+    paperText: Competency Cataloging and Localization to Support Organizational Agility in BPM
+    author: Olivier Hotel
+
+  - tr: paper3work2
+    idPaper: work2paper3
+    namePaper: work2paper3
+    valuePaper: h13
+    paperText: Enterprise System Capabilities for Organizational Change in the BPM Life Cycle
+    author: Johannes Tenschert, Willi Tang and Martin Matzner
+
+  - tr: paper4work2
+    idPaper: work2paper4
+    namePaper: work2paper4
+    valuePaper: h14
+    paperText: "SentiProMo: A Sentiment Analysis-enabled Social Business Process Model Tool"
+    author: Egon Lüftenegger and Selver Softic
+
+- title: Workshop on Business Processes Meet the Internet-of Things 
+  idCheckbox: ninth
+  namecheckbox: ninth
+  valueCheckbox: ninth
+  idtable: text9
+  hidden: false
+  price: 100
+  table:
+  - tr: paper1work3
+    idPaper: work3paper1
+    namePaper: work3paper1
+    valuePaper: i11
+    paperText: Using Physical Factory Simulation Models for Business Process Management Research
+    author: Lukas Malburg, Ronny Seiger, Ralph Bergmann and Barbara Weber
+
+  - tr: paper2work3
+    idPaper: work3paper2
+    namePaper: work3paper2
+    valuePaper: i12
+    paperText: "Modelling Notations for IoT-Aware Business Processes: a Systematic Literature Review"
+    author: Ivan Compagnucci, Flavio Corradini, Fabrizio Fornari, Andrea Polini, Barbara Re and Francesco Tiezzi
+
+- title: Workshop on Artificial Intelligence for Business Process Management
+  idCheckbox: tenth
+  namecheckbox: tenth
+  valueCheckbox: tenth
+  idtable: text10
+  hidden: false
+  price: 100
+  table:
+  - tr: paper1work4
+    idPaper: work4paper1
+    namePaper: work4paper1
+    valuePaper: j11
+    paperText: Automated Business Process Discovery from Unstructured Natural-Language Documents
+    author: Alexander J. Chambers, Amy M. Stringfellow, Ben B. Luo, Sophie J. Underwood, Tony G. Allard, Ian A. Johnston, Sarah Brockman, Leslie Shing, Allan Wollaber and Courtland Vandam
+
+  - tr: paper2work4
+    idPaper: work4paper2
+    namePaper: work4paper2
+    valuePaper: j12
+    paperText: On the Complexity of Resource Controllability in Business Process Management
+    author: Matteo Zavatteri, Romeo Rizzi and Tiziano Villa
+
+  - tr: paper3work4
+    idPaper: work4paper3
+    namePaper: work4paper3
+    valuePaper: j13
+    paperText: Unsupervised Contextual State Representation for Improved Business Process Models
+    author: Prerna Agarwal, Daivik Swarup, Sushruth Prasannakumar, Sampath Dechu and Monika Gupta
+
+  - tr: paper4work4
+    idPaper: work4paper4
+    namePaper: work4paper4
+    valuePaper: j14
+    paperText: A General Framework for Action-Oriented Process Mining
+    author: Gyunam Park and Wil M. P. van der Aalst
+
+  - tr: paper5work4
+    idPaper: work4paper5
+    namePaper: work4paper5
+    valuePaper: j15
+    paperText: Conceptualizing a Capability-Based View of Artificial Intelligence Adoption in a BPM Context
+    author: Aleš Zebec and Mojca Indihar Štemberger
+
+  - tr: paper6work4
+    idPaper: work4paper6
+    namePaper: work4paper6
+    valuePaper: j16
+    paperText: "D3BA: A Tool for Optimizing Business Processes Using Non-Deterministic Planning"
+    author: Tathagata Chakraborti, Shubham Agarwal, Yasaman Khazaeni, Yara Rizk and Vatche Ishakian
+
+  - tr: paper7work4
+    idPaper: work4paper7
+    namePaper: work4paper7
+    valuePaper: j17
+    paperText: "XNAP: Making LSTM-based Next Activity Predictions Explainable by Using LRP"
+    author: Sven Weinzierl, Sandra Zilker, Jens Brunk, Kate Revoredo, Martin Matzner and Jörg Becker
+
+  - tr: paper8work4
+    idPaper: work4paper8
+    namePaper: work4paper8
+    valuePaper: j18
+    paperText: Root Cause Analysis in Process Mining Using Structural Equation Models
+    author: Mahnaz Sadat Qafari and Wil van der Aalst
+
+  - tr: paper9work4
+    idPaper: work4paper9
+    namePaper: work4paper9
+    valuePaper: j19
+    paperText: Analyzing Comments in Ticket Resolution to Capture Underlying Process Interactions
+    author: Monika Gupta, Prerna Agarwal, Tarun Tater, Sampath Dechu and Alexander Serebrenik
+
+- title: Workshop BPM in the era of Digital Innovation and Transformation
+  idCheckbox: eleventh
+  namecheckbox: eleventh
+  valueCheckbox: eleventh
+  idtable: text11
+  hidden: false
+  price: 100
+  table:
+  - tr: paper1work5
+    idPaper: work5paper1
+    namePaper: work5paper1
+    valuePaper: k11
+    paperText: Using Blockchain Technology to Redesign Know Your Customer Processes within the Banking Industry
+    author: Fredrik Milani and Kristin Kamilla Kirss
+
+  - tr: paper2work5
+    idPaper: work5paper2
+    namePaper: work5paper2
+    valuePaper: k12 
+    paperText: "Increasing Control in Construction Processes: the Role of Digitalization"
+    author: Syed Mehtab Alam, Patrick Dallasega, Elisa Marengo, Werner Nutt and Arif Ur Rahman
+
+- title: Workshop on Business Process Intelligence
+  idCheckbox: twelfth
+  namecheckbox: twelfth
+  valueCheckbox: twelfth
+  idtable: text12
+  hidden: false
+  price: 100
+  table:
+  - tr: paper1work6
+    idPaper: work6paper1
+    namePaper: work6paper1
+    valuePaper: l11
+    paperText: Improving the State-Space Traversal of the eST-Miner by Exploiting Underlying Log Structures
+    author: Lisa Luise Mannel, Yannick Epstein and Wil van der Aalst
+
+  - tr: paper2work6
+    idPaper: work6paper2
+    namePaper: work6paper2
+    valuePaper: l12
+    paperText: "Process Outcome Prediction: CNN vs. LSTM (with Attention)"
+    author: Hans Weytjens and Jochen De Weerdt
+  
+  - tr: paper3work6
+    idPaper: work6paper3
+    namePaper: work6paper3
+    valuePaper: l13
+    paperText: Prototype Selection using Clustering and Conformance Metrics for Process Discovery
+    author: Mohammadreza Fani Sani, Mathilde Boltenhagen and Wil M.P. van der Aalst
+
+  - tr: paper4work6
+    idPaper: work6paper4
+    namePaper: work6paper4
+    valuePaper: l14
+    paperText: Enhancing Discovered Process Models usingBayesian Inference and MCMC
+    author: Gert Janssenswillen, Benoît Depaire and Christel Faes
+
+  - tr: paper5work6
+    idPaper: work6paper5
+    namePaper: work6paper5
+    valuePaper: l15
+    paperText: A Generic Framework for Attribute-Driven Hierarchical Trace Clustering
+    author: Sebastiaan J. van Zelst and Yukun Cao
+
+- title: Workshop on DEClarative, DECision and Hybrid approaches to processes
+  idCheckbox: thirteenth
+  namecheckbox: thirteenth
+  valueCheckbox: thirteenth
+  idtable: text13
+  hidden: false
+  price: 100
+  table:
+  - tr: paper1work7
+    idPaper: work7paper1
+    namePaper: work7paper1
+    valuePaper: m11
+    paperText: Evaluation of Heuristics for Product Data Models
+    author: Konstantinos Varvoutas and Anastasios Gounaris
+
+  - tr: paper2work7
+    idPaper: work7paper2
+    namePaper: work7paper2
+    valuePaper: m12
+    paperText: Data Object Cardinalities in Flexible Business Processes
+    author: Stephan Haarmann and Mathias Weske
+
+  - tr: paper3work7
+    idPaper: work7paper3
+    namePaper: work7paper3
+    valuePaper: m13
+    paperText: "Tex2Dec: Extracting Decision Dependencies from Natural Language Text for Automated DMN Decision Modelling"
+    author: Vedavyas Etikala, Ziboud Van Veldhoven and Jan Vanthienen
+
+  - tr: paper4work7
+    idPaper: work7paper4
+    namePaper: work7paper4
+    valuePaper: m14
+    paperText: "ReDa: Reactive Data-driven Processes in neo4j"
+    author: Leandro Galrinho, Joäo Costa Seco, Søren Debois, Thomas Hildebrandt, Hákon Normann and Tijs Slaats
+
+- title: BPM Dissertation Award
+  idCheckbox: fourteenth
+  namecheckbox: fourteenth
+  valueCheckbox: fourteenth
+  idtable: text14
+  hidden: false
+  price: 100
+  table:
+  - tr: paper1dissert
+    idPaper: dissertpaper1
+    namePaper: dissertpaper1
+    valuePaper: dissert1
+    paperText: "Accurate and Efficient Discovery of Process Models from Event Logs - Extended Abstract"
+    author: "Adriano Augusto"
+
+  - tr: paper2dissert
+    idPaper: dissertpaper2
+    namePaper: dissertpaper2
+    valuePaper: dissert2
+    paperText: "Business Process Architecture Design Based on Domain Models"
+    author: "Fernanda Gonzalez-Lopez"
+
+  - tr: paper3dissert
+    idPaper: dissertpaper3
+    namePaper: dissertpaper3
+    valuePaper: dissert3
+    paperText: "Leveraging Artificial Intelligence for Business Process Management - A Contribution to Reference Model Mining, Predictive Process Monitoring and Process Discovery"
+    author: "Jana-Rebecca Rehse"
+
+  - tr: paper4dissert
+    idPaper: dissertpaper4
+    namePaper: dissertpaper4
+    valuePaper: dissert4
+    paperText: "Risk-Based Statistical Process Control"
+    author: "Attila Imre Katona"
+
+  - tr: paper5dissert
+    idPaper: dissertpaper5
+    namePaper: dissertpaper5
+    valuePaper: dissert5
+    paperText: "Business Process Improvement with Performance-Based Sequential Experiments - Extended Abstract"
+    author: "Suhrid Satyal"
+ 
+  - tr: paper6dissert
+    idPaper: dissertpaper6
+    namePaper: dissertpaper6
+    valuePaper: dissert6
+    paperText: "Unearthing the Real Process Behind the EventData: The Case for Increased Process Realism"
+    author: "Gert Janssenswillen"
+
+  - tr: paper7dissert
+    idPaper: dissertpaper7
+    namePaper: dissertpaper7
+    valuePaper: dissert7
+    paperText: "Improving Software Maintenance Ticket Resolution Using Process Mining"
+    author: "Monika Gupta"
+    
+  - tr: paper8dissert
+    idPaper: dissertpaper8
+    namePaper: dissertpaper8
+    valuePaper: dissert8
+    paperText: "Business Process Composition. Planning with Constraint"
+    author: "Piotr Wisniewski"
+
+  - tr: paper9dissert
+    idPaper: dissertpaper9
+    namePaper: dissertpaper9
+    valuePaper: dissert9
+    paperText: "Products and Processes in the Age of the Internet of Things"
+    author: "Louis Püschel"
+ 
+  - tr: paper10dissert
+    idPaper: dissertpaper10
+    namePaper: dissertpaper10
+    valuePaper: dissert10
+    paperText: "Economic Assessment and Analysis of Business Process Compliance: An Approach based on Basic Control Flow Patterns and Extensible Event Streams - Extended Abstract"
+    author: "Stephan Kuehnel"
+    
+- title: Doctoral Consortium
+  idCheckbox: fifteenth
+  namecheckbox: fifteenth
+  valueCheckbox: fifteenth
+  idtable: text15
+  hidden: false
+  price: 100
+  table:
+  - tr: paper1doctoral
+    idPaper: doctoralpaper1
+    namePaper: doctoralpaper1
+    valuePaper: doctoral1
+    paperText: "Ontology-based Business Process Chaining in Heterogeneous Systems"
+    author: "Anbumunee Ponniah"
+    
+  - tr: paper2doctoral
+    idPaper: doctoralpaper2
+    namePaper: doctoralpaper2
+    valuePaper: doctoral2
+    paperText: "Process Extraction from Natural Language Text"
+    author: "Patrizio Bellan"
+    
+  - tr: paper3doctoral
+    idPaper: doctoralpaper3
+    namePaper: doctoralpaper3
+    valuePaper: doctoral3
+    paperText: "Application of Blockchain in the Wind Industry"
+    author: "Kristoffer Holm"

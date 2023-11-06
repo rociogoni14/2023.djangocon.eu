@@ -1,0 +1,31 @@
+{% for conference in site.data.conferences %}
+               
+                <tr id="{{ conference.idtable }}_row" class="conferenceSelector"
+                    {%if conference.hidden %}
+                        style="display:none"
+                    {% endif %}
+                >
+                     <td >
+                        <input type="checkbox" id="{{ conference.idCheckbox }}"  name="{{ conference.namecheckbox }}" value="{{ conference.valueCheckbox }}" onclick="checkboxDisplay1(document.getElementById('{{ conference.idCheckbox }}'), document.getElementById('{{ conference.idtable }}'))">  
+                     </td>
+                     <td >
+                        {{ conference.title }} <strong>({{ conference.price }}€ each)</strong>
+                        <br>
+                        <table class="checkTable" id="{{ conference.idtable }}"  style="display:none">   
+                            <tbody>
+                            {% for papers in conference.table%}
+                                <tr id="{{ papers.valuePaper }}_container">
+                                    <td class='tdWidth'>
+                                        <input type="checkbox" class='paperSelector' id="{{ papers.idPaper }}" value="{{ papers.valuePaper }}" onclick="guardarInputs(document.getElementById('{{ papers.idPaper }}'))"> 
+                                    </td>
+                                    <td colspan="3" >
+                                        <div class="checkPad"><strong>Title: </strong> {{ papers.paperText }}  </div> 
+                                        <div class="checkPad"><strong>Authors: </strong> {{ papers.author }}  </div> <br>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                     </td>
+                </tr>
+                {% endfor %} 
