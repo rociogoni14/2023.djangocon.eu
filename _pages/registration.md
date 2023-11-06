@@ -18,7 +18,7 @@ Conference registration includes access to technical sessions and all conference
 <a class="button" href="{{ site.ticket_link }}" target="_blank">Buy Tickets Now!</a>
 
 Besides conference registration, there is a publication fee associated to each paper that is presented in BPM 2020 including Research Track, Workshops, RPA, Blockchain and Industry Forums, and Demos & Resources (tutorials and Doctoral Consortium are free of charge). The publication fee has to be paid for each paper by only one of the authors. If one author has several papers, he or she needs to pay for each of them separately. **The publication in the proceedings and presentation at the conference is subject to the payment of the publication fee before July, 20th**. Payment is possible by VISA and MasterCard credit cards and is processed through the Santander España Merchant Services payment gateway called Redsys:
-<div style="text-align: center"><a href="{{ site.baseurl }}{% link pages/authorRegistration.md %}" class="button">Author fees</a></div>
+<div style="text-align: center"><a href="{{ site.baseurl }}/authorRegistration.md" class="button">Author fees</a></div>
 
 If you have any question concerning the registration please contact resinas@us.es
 
