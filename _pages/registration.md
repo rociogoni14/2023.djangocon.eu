@@ -25,9 +25,9 @@ If you have any question concerning the registration please contact resinas@us.e
 
 ## Substitution, cancellation and reimbursement policy
 
-Substitutions may be made at any time and without any fees. They have to be requested by sending an email to bpm2020@us.es at least 24 hours before the event begins.
+Substitutions may be made at any time and without any fees. They have to be requested by sending an email to resinas@us.es at least 24 hours before the event begins.
 
-All refund and cancellation requests must be sent to bpm2020@us.es. There will be no refund after July 20, 2020, including non-arrivals. Note that if you are an author and cancel your publication fee, the articles included in it will not be presented at the conference nor included in the proceedings.
+All refund and cancellation requests must be sent to resinas@us.es. There will be no refund after July 20, 2025, including non-arrivals. Note that if you are an author and cancel your publication fee, the articles included in it will not be presented at the conference nor included in the proceedings.
 
-Check the [registration terms and conditions]({{ site.baseurl }}/terms.md )
+Check the <a href="{{ site.baseurl }}/terms.md" >registration terms and conditions</a>
 
