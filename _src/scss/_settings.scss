@@ -406,7 +406,7 @@ $drilldown-background: $brand-color2;
 // ------------
 
 $dropdown-padding: 1rem;
-$dropdown-background: $body-background;
+$dropdown-background: $white;
 $dropdown-border: 1px solid $medium-gray;
 $dropdown-font-size: 1rem;
 $dropdown-width: 300px;
@@ -672,7 +672,7 @@ $thumbnail-radius: 0;
 // 35. Title Bar
 // -------------
 
-$titlebar-background: $black;
+$titlebar-background: $white;
 $titlebar-color: $white;
 $titlebar-padding: 0;
 $titlebar-text-font-weight: $global-weight-normal;
