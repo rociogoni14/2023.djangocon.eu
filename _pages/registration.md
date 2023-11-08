@@ -24,10 +24,17 @@ The following table details the core sponsorship levels. We have several differe
 
 See the list of extras packages for options you have on top of your core package for increasing your presence at the event.
 
-|     | Advance Registration | Regular Registration | Onsite Registration  | Number Available |
+|     | Advance Registration | Regular Registration | Onsite Registration  |
 | :--------------------------------------: | ------------------ | :--------------: | :-------: |
-| Conference, industry day and workshops  | 600€ |  650€  | 750€ |
-
+| Conference, industry day and workshops  | 600€ | 650€ | 750€ |
+| Conference and industry day only        | 500€ | 550€ | 650€ |
+| Workshops only                          | 250€ | 300€ | 350€ |
+| Conference, industry day and workshops (students including PhD candidates) | 500€ | 550€ | 650€ |
+| Conference and industry day only (students including PhD candidates) | 400€ | 450€ | 550€ |
+| 1-day Academic ticket (Tue,Wed or Thu)  |      | 400€ | 500€ |
+| 1-day Industry ticket (Fri)             |      | 400€ | 500€ |
+| Dinner ticket Wednesday Sept 3          |      |      | 120€ |
+| Dinner ticket Thursday Sept 4           |      |      | 55€  |
 
 <div style="text-align: center"><a class="button" href="{{ site.ticket_link }}" target="_blank">Buy Tickets Now!</a></div>
 
