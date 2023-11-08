@@ -1,0 +1,64 @@
+User: 172.18.0.1 - August 19, 2022, 12:29 pm
+SETUP DB :Good access
+//////////////////////////////////////////////////////////////////
+User: 172.18.0.1 - August 19, 2022, 12:29 pm
+SETUP DB :Connecting...
+//////////////////////////////////////////////////////////////////
+User: 172.18.0.1 - August 19, 2022, 12:29 pm
+SETUP DB :Connected!
+//////////////////////////////////////////////////////////////////
+User: 172.18.0.1 - August 19, 2022, 12:29 pm
+SETUP DB :Result:{"current_field":null,"field_count":null,"lengths":null,"num_rows":null,"type":null}
+//////////////////////////////////////////////////////////////////
+User: 172.18.0.1 - August 19, 2022, 12:29 pm
+SETUP DB :REGISTRYDATA TABLE exists
+//////////////////////////////////////////////////////////////////
+User: 172.18.0.1 - August 19, 2022, 12:29 pm
+SETUP DB :AUTHORDATA TABLE exists
+//////////////////////////////////////////////////////////////////
+User: 172.18.0.1 - August 19, 2022, 12:29 pm
+SETUP DB :Author Data: {"AllUsers":[{"GROUP_CONCAT(IDPONENCIA)":null}]}
+//////////////////////////////////////////////////////////////////
+User: 172.18.0.1 - August 19, 2022, 12:32 pm
+Attempt: 1
+Query: INSERT INTO REGISTRYDATA (ID, EMAIL, FIRSTNAME, LASTNAME, GENDER, ORGANITATION, ADDRESS1, ADDRESS2, CITY, POSTALCODE, COUNTRY, PACKAGE, PAID, MERCODE) VALUES 
+('a83a5b493ea7', 'test', 'test','test', 'Male', 'test', 'test', 'test', 'test', '41012', 'ES', 'all', 'No', 42184281)
+-------------------------
+User: 172.18.0.1 - August 19, 2022, 12:32 pm
+Attempt: 1
+Query: INSERT INTO REGISTRYDATA (ID, EMAIL, FIRSTNAME, LASTNAME, GENDER, ORGANITATION, ADDRESS1, ADDRESS2, CITY, POSTALCODE, COUNTRY, PACKAGE, PAID, MERCODE) VALUES 
+('f96819873f0c', 'test', 'test','test', 'Male', 'test', 'test', 'test', 'test', '41012', 'ES', 'all', 'No', 89165035)
+-------------------------
+User: 172.18.0.1 - August 19, 2022, 5:10 pm
+SETUP DB :Good access
+//////////////////////////////////////////////////////////////////
+User: 172.18.0.1 - August 19, 2022, 5:10 pm
+SETUP DB :Connecting...
+//////////////////////////////////////////////////////////////////
+User: 172.18.0.1 - August 19, 2022, 5:10 pm
+SETUP DB :Connected!
+//////////////////////////////////////////////////////////////////
+User: 172.18.0.1 - August 19, 2022, 5:10 pm
+SETUP DB :Result:{"current_field":null,"field_count":null,"lengths":null,"num_rows":null,"type":null}
+//////////////////////////////////////////////////////////////////
+User: 172.18.0.1 - August 19, 2022, 5:10 pm
+SETUP DB :REGISTRYDATA TABLE exists
+//////////////////////////////////////////////////////////////////
+User: 172.18.0.1 - August 19, 2022, 5:10 pm
+SETUP DB :AUTHORDATA TABLE exists
+//////////////////////////////////////////////////////////////////
+User: 172.18.0.1 - August 19, 2022, 5:10 pm
+SETUP DB :Author Data: {"AllUsers":[{"GROUP_CONCAT(IDPONENCIA)":null}]}
+//////////////////////////////////////////////////////////////////
+User: 172.18.0.1 - November 6, 2023, 11:42 am
+SETUP DB :Good access
+//////////////////////////////////////////////////////////////////
+User: 172.18.0.1 - November 6, 2023, 11:42 am
+SETUP DB :Connecting...
+//////////////////////////////////////////////////////////////////
+User: 172.18.0.1 - November 6, 2023, 11:42 am
+SETUP DB :Connected!
+//////////////////////////////////////////////////////////////////
+User: 172.18.0.1 - November 6, 2023, 11:42 am
+SETUP DB :Empty Registry Table
+//////////////////////////////////////////////////////////////////

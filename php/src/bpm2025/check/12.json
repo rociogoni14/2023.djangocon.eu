@@ -1,0 +1,511 @@
+[
+    {
+        "title": "Research track",
+        "tr": [
+            {
+                "valuePaper": "a11",
+                "paperText": "Adding Intelligent Robots to Business Processes: A Dilemma Analysis of Employees’ Attitudes."
+            },
+            {
+                "valuePaper": "a12",
+                "paperText": "Online Process Monitoring Using Incremental State-Space Expansion: An Exact Algorithm"
+            },
+            {
+                "valuePaper": "a13",
+                "paperText": "Timestamp Repair for Business Process Event Logs"
+            },
+            {
+                "valuePaper": "a14",
+                "paperText": "Event Log Generation in a Health System: a Case Study"
+            },
+            {
+                "valuePaper": "a15",
+                "paperText": "Effective stakeholder management in process improvement projects"
+            },
+            {
+                "valuePaper": "a16",
+                "paperText": "BP-IT Alignment in SMEs: a Gamification Approach  to Increase Stakeholders’ Maturity"
+            },
+            {
+                "valuePaper": "a17",
+                "paperText": "Incentive Alignment of Business Processes as a Conservative Extension of Soundness"
+            },
+            {
+                "valuePaper": "a18",
+                "paperText": "Analyzing Process Concept Drifts Based on Sensor Event Streams During Runtime"
+            },
+            {
+                "valuePaper": "a19",
+                "paperText": "PRIPEL: Privacy-Preserving Event Log Publishing Including Contextual Information"
+            },
+            {
+                "valuePaper": "a20",
+                "paperText": "An Approach for Assessing Simplicity of Process Models Automatically Discovered from Event Data"
+            },
+            {
+                "valuePaper": "a21",
+                "paperText": "Video-to-Model: Unsupervised Trace Extraction from Videos for Process Discovery and Conformance Checking in Manual Assembly"
+            },
+            {
+                "valuePaper": "a22",
+                "paperText": "Looking for Meaning: Discovering Action-Response-Effect Patterns in Business Processes"
+            },
+            {
+                "valuePaper": "a23",
+                "paperText": "Quo vadis, Business Process Maturity Model? Learning from the Past to Envision the Future"
+            },
+            {
+                "valuePaper": "a24",
+                "paperText": "Socially-Aware Business Process Redesign"
+            },
+            {
+                "valuePaper": "a25",
+                "paperText": "Extracting Annotations from Textual Descriptions of Processes"
+            },
+            {
+                "valuePaper": "a26",
+                "paperText": "A Consolidated Framework for Implementing Robotic Process Automation Projects"
+            },
+            {
+                "valuePaper": "a27",
+                "paperText": "Understanding Quality in Declarative Process Modeling Through the Mental Models of Experts"
+            },
+            {
+                "valuePaper": "a28",
+                "paperText": "Probabilistic Business Constraints"
+            },
+            {
+                "valuePaper": "a29",
+                "paperText": "Predictive Business Process Monitoring via Generative Adversarial Nets: The Case of Next Event Prediction"
+            },
+            {
+                "valuePaper": "a30",
+                "paperText": "Explorative Process Design Patterns"
+            },
+            {
+                "valuePaper": "a31",
+                "paperText": "Exploring Interpretable Predictive Models for Business Processes"
+            },
+            {
+                "valuePaper": "a32",
+                "paperText": "Enhancing Event Log Quality: Detecting and Quantifying Timestamp Imperfections"
+            },
+            {
+                "valuePaper": "a33",
+                "paperText": "TADE: Stochastic Conformance Checkingusing Temporal Activity Density Estimation"
+            },
+            {
+                "valuePaper": "a34",
+                "paperText": "Triggering Proactive Business Process Adaptations via Online Reinforcement Learning"
+            },
+            {
+                "valuePaper": "a35",
+                "paperText": "How to Keep RPA Maintainable?"
+            },
+            {
+                "valuePaper": "a36",
+                "paperText": "A Multi Perspective Framework for Enhanced Supply Chain Analytics"
+            },
+            {
+                "valuePaper": "a37",
+                "paperText": "Petri Nets with Parameterised Data: Modelling and Verification"
+            }
+        ]
+    },
+    {
+        "title": "RPA Forum",
+        "tr": [
+            {
+                "valuePaper": "b11",
+                "paperText": "Conversational Digital Assistant for Intelligent Process Automation"
+            },
+            {
+                "valuePaper": "b12",
+                "paperText": "Is Robotic Process Automation becoming intelligent? Early evidence of influences of Artificial Intelligence on Robotic Process Automation"
+            },
+            {
+                "valuePaper": "b13",
+                "paperText": "Automated Generation of Executable RPA Scripts from User Interface Logs"
+            },
+            {
+                "valuePaper": "b14",
+                "paperText": "Integrating Robotic Process Automation into Business Process Management"
+            },
+            {
+                "valuePaper": "b15",
+                "paperText": "How to Trust a Bot: An RPA User Perspective"
+            },
+            {
+                "valuePaper": "b16",
+                "paperText": "Towards a taxonomy of Cognitive RPA Components"
+            },
+            {
+                "valuePaper": "b17",
+                "paperText": "An OpenSource Logger for the Analysis of RPA Projects"
+            },
+            {
+                "valuePaper": "b18",
+                "paperText": "Beyond the Hype: RPA Horizon for Robot-Human interaction"
+            },
+            {
+                "valuePaper": "b19",
+                "paperText": "A framework for evaluating the suitability of process activities for robotic process automation"
+            },
+            {
+                "valuePaper": "b20",
+                "paperText": "From Robotic Process Automation to Intelligent Process Automation"
+            }
+        ]
+    },
+    {
+        "title": "Blockchain Forum",
+        "tr": [
+            {
+                "valuePaper": "c11",
+                "paperText": "Silver Bullet for all Trust Issues? Blockchain-based Trust Patterns for Collaborative Business Processes"
+            },
+            {
+                "valuePaper": "c12",
+                "paperText": "Blockchain Oracles: A Framework for Blockchain-Based Applications"
+            },
+            {
+                "valuePaper": "c13",
+                "paperText": "Foundational Oracle Patterns: Connecting Blockchain to the Off-chain World"
+            },
+            {
+                "valuePaper": "c14",
+                "paperText": "The Role of Modeling in Blockchain Process Design"
+            },
+            {
+                "valuePaper": "c15",
+                "paperText": "External Data Monitoring Using Oracles in Blockchain-Based Process Execution"
+            }
+        ]
+    },
+    {
+        "title": "Industry Forum",
+        "tr": [
+            {
+                "valuePaper": "d11",
+                "paperText": "Trace Clustering for an Online Freight Exchange at TIMOCOM"
+            },
+            {
+                "valuePaper": "d12",
+                "paperText": "Process Mining for Production Processes in the Automotive Industry"
+            },
+            {
+                "valuePaper": "d13",
+                "paperText": "Geo-Enabled Business Process Modeling"
+            },
+            {
+                "valuePaper": "d14",
+                "paperText": "Energy-KPI tracking in building construction processes using Adaptive Case Management"
+            },
+            {
+                "valuePaper": "d15",
+                "paperText": "Process Mining Applied to Process Redesign in a Domestic Navigation Business Company"
+            },
+            {
+                "valuePaper": "d16",
+                "paperText": "‘Means’ for achieving process modelling success: Insights from a large Australian bank"
+            },
+            {
+                "valuePaper": "d17",
+                "paperText": "Flexibility, Adherence and Guidance for Regulated Processes with Case Management"
+            },
+            {
+                "valuePaper": "d18",
+                "paperText": "Enhancing communication of complex services through process modelling practices: Insights from an Australian Higher Education Institution"
+            }
+        ]
+    },
+    {
+        "title": "BPM Forum",
+        "tr": [
+            {
+                "valuePaper": "e11",
+                "paperText": "IT Culture and BPM Adoption in Organizations"
+            },
+            {
+                "valuePaper": "e12",
+                "paperText": "Dynamic Process Synchronization using BPMN 2.0 to Support Buffering and (Un)Bundling in Manufacturing"
+            },
+            {
+                "valuePaper": "e13",
+                "paperText": "Business Process Change Ontology from a Critical Realist Perspective"
+            },
+            {
+                "valuePaper": "e14",
+                "paperText": "Predictive Process Mining meets Computer Vision"
+            },
+            {
+                "valuePaper": "e15",
+                "paperText": "Digital Transformation and Business Process Innovation: A Car Rental Company Case Study"
+            },
+            {
+                "valuePaper": "e16",
+                "paperText": "Feature Development in BPMN-based Process-Driven Applications"
+            },
+            {
+                "valuePaper": "e17",
+                "paperText": "Bayesian Network based Predictions of Business Processes"
+            },
+            {
+                "valuePaper": "e18",
+                "paperText": "A Theoretical Model for Business Process Standardization"
+            },
+            {
+                "valuePaper": "e19",
+                "paperText": "Make Your Flaw Your Strength: How to Make a Process Predictor Learn from Its Own Mistakes Using Explainability"
+            },
+            {
+                "valuePaper": "e20",
+                "paperText": "Discovering Activities from Emails Based on Pattern Discovery Approach"
+            },
+            {
+                "valuePaper": "e21",
+                "paperText": "Conformance checking using activity and trace embeddings"
+            },
+            {
+                "valuePaper": "e22",
+                "paperText": "Shared Data Objects in Business Processes: Semantics and Implications"
+            },
+            {
+                "valuePaper": "e23",
+                "paperText": "Say It In Your Own Words: Defining Declarative Process Models Using Speech Recognition"
+            },
+            {
+                "valuePaper": "e24",
+                "paperText": "IoT-Based Activity Recognition for Process Assistance in Human-Robot Disaster Response"
+            },
+            {
+                "valuePaper": "e25",
+                "paperText": "Privacy-Preserving Data Publishing in Process Mining"
+            },
+            {
+                "valuePaper": "e26",
+                "paperText": "Prescriptive Business Process Monitoring for Recommending Next Best Actions"
+            },
+            {
+                "valuePaper": "e27",
+                "paperText": "Process mining adoption: A technology continuity versus discontinuity perspective"
+            },
+            {
+                "valuePaper": "e28",
+                "paperText": "A Holistic Journey for Selecting and Adapting BPM Maturity Models (BPM MMs)"
+            },
+            {
+                "valuePaper": "e29",
+                "paperText": "Analyzing a Helpdesk Process through the Lens of Actor Handoff Patterns"
+            }
+        ]
+    },
+    {
+        "title": "Demos & Resource",
+        "tr": [
+            {
+                "valuePaper": "f11",
+                "paperText": "Celonis Process Repository: A Bridge between Business Process Management and Process Mining"
+            },
+            {
+                "valuePaper": "f12",
+                "paperText": "Shareprom: A Tool for Privacy-Preserving Inter-Organizational Process Mining"
+            },
+            {
+                "valuePaper": "f13",
+                "paperText": "PMSD: Data-Driven Simulation Using System Dynamics and Process Mining"
+            },
+            {
+                "valuePaper": "f14",
+                "paperText": "Interactive Process Clustering with t-SNE"
+            },
+            {
+                "valuePaper": "f15",
+                "paperText": "Dynamic Pattern-based Case Filters using Regular Expressions"
+            },
+            {
+                "valuePaper": "f16",
+                "paperText": "Practical Aspect of Privacy-Preserving Data Publishing in Process Mining"
+            },
+            {
+                "valuePaper": "f17",
+                "paperText": "MQTT-XES: Real-time Telemetry for Process Event Data"
+            },
+            {
+                "valuePaper": "f18",
+                "paperText": "Robidium: Automated Synthesis of Robotic Process Automation Scripts from UI Logs"
+            },
+            {
+                "valuePaper": "f19",
+                "paperText": "BCIT: A Tool to Recommend Compliant Business Processes based on Process Adaption"
+            },
+            {
+                "valuePaper": "f20",
+                "paperText": "RegMiner: Taming the Complexity of Regulatory Documents for Digitalized Compliance Management"
+            },
+            {
+                "valuePaper": "f21",
+                "paperText": "SVIPEX: A Web Service for Discovering and Visualizing Instance Spanning Constraints based on Process Execution Logs"
+            },
+            {
+                "valuePaper": "f22",
+                "paperText": "Declo: A Chatbot for User-friendly Specification of Declarative Process Models"
+            },
+            {
+                "valuePaper": "f23",
+                "paperText": "Pertuniti: Subprocess modeling and hierarchic case management"
+            }
+        ]
+    },
+    {
+        "title": "Workshop on Security and Privacy-enhanced Business Process Management",
+        "tr": [
+            {
+                "valuePaper": "g11",
+                "paperText": "Data Minimisation as Privacy and Trust Instrument in Business Processes"
+            },
+            {
+                "valuePaper": "g12",
+                "paperText": "Decentralized Data Access with IPFS and Smart Contract Permission Management for Electronic Health Records"
+            },
+            {
+                "valuePaper": "g13",
+                "paperText": "Verifiable Multi-Party Business Process Automation"
+            }
+        ]
+    },
+    {
+        "title": "Workshop on Social and Human Aspects of Business Process Management",
+        "tr": [
+            {
+                "valuePaper": "h11",
+                "paperText": "A Classification of Digital-Oriented Work Practices."
+            },
+            {
+                "valuePaper": "h12",
+                "paperText": "Competency Cataloging and Localization to Support Organizational Agility in BPM"
+            },
+            {
+                "valuePaper": "h13",
+                "paperText": "Enterprise System Capabilities for Organizational Change in the BPM Life Cycle"
+            },
+            {
+                "valuePaper": "h14",
+                "paperText": "SentiProMo: A Sentiment Analysis-enabled Social Business Process Model Tool"
+            }
+        ]
+    },
+    {
+        "title": "Workshop on Business Processes Meet the Internet-of Things",
+        "tr": [
+            {
+                "valuePaper": "i11",
+                "paperText": "Using Physical Factory Simulation Models for Business Process Management Research"
+            },
+            {
+                "valuePaper": "i12",
+                "paperText": "Modelling Notations for IoT-Aware Business Processes: a Systematic Literature Review"
+            }
+        ]
+    },
+    {
+        "title": "Workshop on Artificial Intelligence for Business Process Management",
+        "tr": [
+            {
+                "valuePaper": "j11",
+                "paperText": "Automated Business Process Discovery from Unstructured Natural-Language Documents"
+            },
+            {
+                "valuePaper": "j12",
+                "paperText": "On the Complexity of Resource Controllability in Business Process Management"
+            },
+            {
+                "valuePaper": "j13",
+                "paperText": "Unsupervised Contextual State Representation for Improved Business Process Models"
+            },
+            {
+                "valuePaper": "j14",
+                "paperText": "A General Framework for Action-Oriented Process Mining"
+            },
+            {
+                "valuePaper": "j15",
+                "paperText": "Conceptualizing a Capability-Based View of Artificial Intelligence Adoption in a BPM Context"
+            },
+            {
+                "valuePaper": "j16",
+                "paperText": "D3BA: A Tool for Optimizing Business Processes Using Non-Deterministic Planning"
+            },
+            {
+                "valuePaper": "j17",
+                "paperText": "XNAP: Making LSTM-based Next Activity Predictions Explainable by Using LRP"
+            },
+            {
+                "valuePaper": "j18",
+                "paperText": "Root Cause Analysis in Process Mining Using Structural Equation Models"
+            },
+            {
+                "valuePaper": "j19",
+                "paperText": "Analyzing Comments in Ticket Resolution to Capture Underlying Process Interactions"
+            }
+        ]
+    },
+    {
+        "title": "Workshop BPM in the era of Digital Innovation and Transformation",
+        "tr": [
+            {
+                "valuePaper": "k11",
+                "paperText": "Using Blockchain Technology to Redesign Know Your Customer Processes within the Banking Industry"
+            },
+            {
+                "valuePaper": "k12",
+                "paperText": "Increasing Control in Construction Processes: the Role of Digitalization"
+            }
+        ]
+    },
+    {
+        "title": "Workshop on Business Process Intelligence",
+        "tr": [
+            {
+                "valuePaper": "l11",
+                "paperText": "Improving the State-Space Traversal of the eST-Miner by Exploiting Underlying Log Structures"
+            },
+            {
+                "valuePaper": "l12",
+                "paperText": "Process Outcome Prediction: CNN vs. LSTM (with Attention)"
+            },
+            {
+                "valuePaper": "l13",
+                "paperText": "Prototype Selection using Clustering and Conformance Metrics for Process Discovery"
+            },
+            {
+                "valuePaper": "l14",
+                "paperText": "Enhancing Discovered Process Models usingBayesian Inference and MCMC"
+            },
+            {
+                "valuePaper": "l15",
+                "paperText": "A Generic Framework for Attribute-Driven Hierarchical Trace Clustering"
+            }
+        ]
+    },
+    {
+        "title": "Workshop on DEClarative, DECision and Hybrid approaches to processes",
+        "tr": [
+            {
+                "valuePaper": "m11",
+                "paperText": "Evaluation of Heuristics for Product Data Models"
+            },
+            {
+                "valuePaper": "m12",
+                "paperText": "Data Object Cardinalities in Flexible Business Processes"
+            },
+            {
+                "valuePaper": "m13",
+                "paperText": "Tex2Dec: Extracting Decision Dependencies from Natural Language Text for Automated DMN Decision Modelling"
+            },
+            {
+                "valuePaper": "m14",
+                "paperText": "ReDa: Reactive Data-driven Processes in neo4j"
+            }
+        ]
+    }
+]

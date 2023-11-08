@@ -1,0 +1,3 @@
+User: 172.18.0.1 - November 7, 2023, 1:12 pm
+ERROR Connect failed: (db <bpm2025_db> , host <db>) Access denied for user 'bpm2025_user'@'172.18.0.4' (using password: YES)
+#############################################################################

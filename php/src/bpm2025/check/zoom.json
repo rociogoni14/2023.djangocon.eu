@@ -1,0 +1,188 @@
+[
+    {
+       "topic":"Joint Workshop BPMinDIT-2020 & BPM-Meet-IoT",
+       "id":97384575683,
+       "start_time":"Mon Sep 14 10:00:00 2020",
+       "duration":180
+    },
+    {
+       "topic":"Conference opening and Keynote: Perspectives in Process Mining: Closing the Big Data Gap",
+       "id":91949558404,
+       "start_time":"Tue Sep 15 10:00:00 2020",
+       "duration":95
+    },
+    {
+       "topic":"Keynote: How to infuse AI into Business Processes? A practitioner's perspective on best practices",
+       "id":93237368915,
+       "start_time":"Wed Sep 16 16:05:00 2020",
+       "duration":75
+    },
+    {
+       "topic":"Keynote: Towards Process Science: Embracing Interdisciplinary Research Opportunities in the Digital Age",
+       "id":91217939389,
+       "start_time":"Thu Sep 17 10:00:00 2020",
+       "duration":75
+    },
+    {
+       "topic":"Panel: Publications",
+       "id":95666518839,
+       "start_time":"Tue Sep 15 16:40:00 2020",
+       "duration":20
+    },
+    {
+       "topic":"Panel: Privacy",
+       "id":91968421044,
+       "start_time":"Thu Sep 17 15:20:00 2020",
+       "duration":20
+    },
+    {
+       "topic":"Awards and Conference closing",
+       "id":92885875739,
+       "start_time":"Thu Sep 17 15:50:00 2020",
+       "duration":70
+    },
+    {
+       "topic":"Presentation of Industry Forum and Demo Teasers",
+       "id":98531230470,
+       "start_time":"Wed Sep 16 09:40:00 2020",
+       "duration":40
+    },
+    {
+       "topic":"Blockchain Forum",
+       "id":96432602686,
+       "start_time":"Tue Sep 15 11:35:00 2020",
+       "duration":75
+    },
+    {
+       "topic":"Blockchain Forum Keynote",
+       "id":92982806303,
+       "start_time":"Tue Sep 15 13:45:00 2020",
+       "duration":75
+    },
+    {
+       "topic":"BPM Forum Session 1: Prediction",
+       "id":93354481196,
+       "start_time":"Tue Sep 15 11:35:00 2020",
+       "duration":75
+    },
+    {
+       "topic":"BPM Forum Session 2. Process Mining",
+       "id":94085234782,
+       "start_time":"Tue Sep 15 13:45:00 2020",
+       "duration":75
+    },
+    {
+       "topic":"BPM Forum Session 3: Process Change, Maturity, and Culture",
+       "id":98661167638,
+       "start_time":"Tue Sep 15 15:20:00 2020",
+       "duration":75
+    },
+    {
+       "topic":"BPM Forum Session 4. Modeling",
+       "id":96262673502,
+       "start_time":"Thu Sep 17 13:45:00 2020",
+       "duration":75
+    },
+    {
+       "topic":"Industry Forum Session 1",
+       "id":96168906428,
+       "start_time":"Wed Sep 16 10:20:00 2020",
+       "duration":75
+    },
+    {
+       "topic":"Industry Forum Session 2",
+       "id":98587317124,
+       "start_time":"Wed Sep 16 11:40:00 2020",
+       "duration":75
+    },
+    {
+       "topic":"Research Track Session 1: Process Modeling and Conformance Checking (Triana Bridge)",
+       "id":94527951185,
+       "start_time":"Tue Sep 15 11:35:00 2020",
+       "duration":75
+    },
+    {
+       "topic":"Research Track Session 2: Social Context in BPM (Alcazar)",
+       "id":91935722504,
+       "start_time":"Tue Sep 15 13:45:00 2020",
+       "duration":75
+    },
+    {
+       "topic":"Research Track Session 3: Conformance and Prediction (Park)",
+       "id":97280870345,
+       "start_time":"Tue Sep 15 15:20:00 2020",
+       "duration":75
+    },
+    {
+       "topic":"Research Track Session 4: Modeling Support and Maintainability (Cathedral)",
+       "id":92157180702,
+       "start_time":"Wed Sep 16 10:20:00 2020",
+       "duration":75
+    },
+    {
+       "topic":"Research Track Session 5: Robotic Process Automation and BPM Maturity (Sierpes street)",
+       "id":93753044195,
+       "start_time":"Wed Sep 16 11:40:00 2020",
+       "duration":75
+    },
+    {
+       "topic":"Research Track Session 6: Applications and organizational aspects of BPM (Alcazar Gardens)",
+       "id":98018129459,
+       "start_time":"Thu Sep 17 11:35:00 2020",
+       "duration":75
+    },
+    {
+       "topic":"Research Track Session 7: Event data extraction, enhancement, and analysis (Setas)",
+       "id":92076538716,
+       "start_time":"Thu Sep 17 13:45:00 2020",
+       "duration":75
+    },
+    {
+       "topic":"RPA Forum Opening and Keynote: Robotic Process Automation for Process Transformation - Contemporary Themes and Research Challenges",
+       "id":94771302255,
+       "start_time":"Wed Sep 16 10:20:00 2020",
+       "duration":75
+    },
+    {
+       "topic":"RPA Forum Session 1",
+       "id":97092112416,
+       "start_time":"Thu Sep 17 11:35:00 2020",
+       "duration":75
+    },
+    {
+       "topic":"RPA Forum Session 2",
+       "id":96458741666,
+       "start_time":"Thu Sep 17 13:00:00 2020",
+       "duration":75
+    },
+    {
+       "topic":"RPA Forum Demo Session",
+       "id":96973157867,
+       "start_time":"Fri Sep 18 09:30:00 2020",
+       "duration":90
+    },
+    {
+       "topic":"Information Systems Modeling: playing with the interplay between data and processes.",
+       "id":98053603895,
+       "start_time":"Tue Sep 15 13:45:00 2020",
+       "duration":75
+    },
+    {
+       "topic":"Driving Digitalization on the Shopfloor Through Flexible Process Technology",
+       "id":99553612809,
+       "start_time":"Tue Sep 15 15:20:00 2020",
+       "duration":75
+    },
+    {
+       "topic":"Business Process Analysis using Scripting Languages",
+       "id":97658000467,
+       "start_time":"Wed Sep 16 11:40:00 2020",
+       "duration":75
+    },
+    {
+        "topic": "My Webinar",
+        "id": 94416046257,
+        "start_time": "Sep 13, 2020 01:00 PM",
+        "duration": 60
+    }
+ ]
