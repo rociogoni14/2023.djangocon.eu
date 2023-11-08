@@ -33,8 +33,10 @@ See the list of extras packages for options you have on top of your core package
 | Conference and industry day only (students including PhD candidates) | 400€ | 450€ | 550€ |
 | 1-day Academic ticket (Tue,Wed or Thu)  |      | 400€ | 500€ |
 | 1-day Industry ticket (Fri)             |      | 400€ | 500€ |
-| Dinner ticket Wednesday Sept 3          |      |      | 120€ |
-| Dinner ticket Thursday Sept 4           |      |      | 55€  |
+| Dinner ticket Wednesday Sept 3 *         |      |      | 120€ |
+| Dinner ticket Thursday Sept 4 *         |      |      | 55€  |
+
+* Dinners are included in the conference fee. If you would like to attend this dinner as a guest, please register and take the proof of registration with you to the dinner.
 
 <div style="text-align: center"><a class="button" href="{{ site.ticket_link }}" target="_blank">Buy Tickets Now!</a></div>
 
