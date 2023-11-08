@@ -36,7 +36,7 @@ See the list of extras packages for options you have on top of your core package
 | Dinner ticket Wednesday Sept 3 *         |      |      | 120€ |
 | Dinner ticket Thursday Sept 4 *         |      |      | 55€  |
 
-&ast; Dinners are included in the conference fee. If you would like to attend this dinner as a guest, please register and take the proof of registration with you to the dinner.
+\* Dinners are included in the conference fee. If you would like to attend this dinner as a guest, please register and take the proof of registration with you to the dinner.
 
 <div style="text-align: center"><a class="button" href="{{ site.ticket_link }}" target="_blank">Buy Tickets Now!</a></div>
 
