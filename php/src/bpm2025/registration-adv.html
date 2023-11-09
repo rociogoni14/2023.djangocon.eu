@@ -2,12 +2,10 @@
 description: Information about registration to BPM2025
 heading: Registration
 layout: default
-permalink: /registration_form/
+permalink: /registration_form_early/
 published: true
 title: BPM2025 Registration Form
 ---
-
-<body id="top-of-page" class="post">
 	
 
 	<div class="row t30">
@@ -15,7 +13,7 @@ title: BPM2025 Registration Form
          <article itemscope itemtype="http://schema.org/Article">
             <header>
                <div itemprop="name">
-                  <h1>Registration Form</h1>
+                  <h1 style="text-align: center;">Registration Form</h1>
                   <hr>
                </div>
             </header>
@@ -96,7 +94,7 @@ title: BPM2025 Registration Form
 
                   var variables = ["name", "lastName", "email", "gender", "organization", 
                   "address1", "address2", "city", "postal", "country", "paper","fa",
-                  "all", "conference", "workshops", "all_students", "conference_students", "workshops_students", "array"];
+                  "all", "conference_industry", "workshops", "all_students", "conference_industry_students", "array"];
 
                   window.onload = function() {
                      if (sessionStorage.name && sessionStorage.lastName) {
@@ -130,11 +128,10 @@ title: BPM2025 Registration Form
                         var paper = document.getElementById("paper").value;        
                         var fa = document.getElementById("fa").value;        
                         var all = document.getElementById("all").checked;
-                        var conference = document.getElementById("conference").checked;
+                        var conference_industry = document.getElementById("conference_industry").checked;
                         var workshops = document.getElementById("workshops").checked;
                         var all_students = document.getElementById("all_students").checked;
-                        var conference_students = document.getElementById("conference_students").checked;
-                        var workshops_students = document.getElementById("workshops_students").checked;
+                        var conference_industry_students = document.getElementById("conference_industry_students").checked;
                     
                         var array = document.getElementById("array").value;
 
@@ -151,11 +148,10 @@ title: BPM2025 Registration Form
                         sessionStorage.paper = paper;
                         sessionStorage.fa = fa;
                         sessionStorage.all = all;
-                        sessionStorage.conference = conference;
+                        sessionStorage.conference_industry = conference_industry;
                         sessionStorage.workshops = workshops;
                         sessionStorage.all_students = all_students;
-                        sessionStorage.conference_students = conference_students;
-                        sessionStorage.workshops_students = workshops_students;
+                        sessionStorage.conference_industry_students = conference_industry_students;
 
                         sessionStorage.array = array;
                      
@@ -165,7 +161,7 @@ title: BPM2025 Registration Form
                   
                </script>
 
-               <form action="resume.php" accept-charset="UTF-8" enctype="multipart/form-data" method="POST">
+               <form action="{{ site.baseurl }}/resume.php" accept-charset="UTF-8" enctype="multipart/form-data" method="POST">
                   <table>
                   <tbody>
                      <tr>
@@ -561,7 +557,7 @@ title: BPM2025 Registration Form
                      <tr>
                            <td colspan="2">
                               <div class="orangeBar">
-                                 REGISTRATION TYPE (Early registration prices valid until <s>Oct 30th</s> <b>Nov 6th</b>)
+                                 REGISTRATION TYPE (Early registration prices valid until <b>Nov 6th</b>)
                               </div>
                            </td>
                         </tr>
@@ -583,7 +579,7 @@ title: BPM2025 Registration Form
                               </tr>
                               <tr id="text_row" class="conferenceSelector">
                                     <td>
-                                       <input type="radio" id="conference" name="package" value="conference_industry" /><label for="conference_industry">Conference and industry day only 500€</label>                        
+                                       <input type="radio" id="conference_industry" name="package" value="conference_industry" /><label for="conference_industry">Conference and industry day only 500€</label>                        
                                     </td>
                                  </tr>
                                  <tr id="text_row" class="conferenceSelector">
@@ -598,7 +594,7 @@ title: BPM2025 Registration Form
                                  </tr>
                                  <tr id="text_row" class="conferenceSelector">
                                        <td>
-                                       <input type="radio" id="conference_students" name="package" value="conference_industry_students" /><label for="conference_industry_students">Conference and industry day only (students, including PhD candidates) 400€</label>                        
+                                       <input type="radio" id="conference_industry_students" name="package" value="conference_industry_students" /><label for="conference_industry_students">Conference and industry day only (students, including PhD candidates) 400€</label>                        
                                     </td>
                                  </tr>
                               
@@ -623,7 +619,7 @@ title: BPM2025 Registration Form
                                     </td>
                                     <td>
                                        <label class="required_ofc" for="terms">
-                                       I accept the <a href="{{ site.baseurl }}/terms" target="_blank">terms and conditions of the ICSOC 2022 conference.</a>
+                                       I accept the <a href="{{ site.baseurl }}/terms" target="_blank">terms and conditions of the BPM2025 conference.</a>
                                        </label>
                                  </td>
                                  </tr>
@@ -632,7 +628,7 @@ title: BPM2025 Registration Form
                      </tr>
                         <tr>
                            <td colspan="2">
-                              Review the information above and submit the form to continue. If you have any question concerning the author fees please contact icsoc2022@us.es <br /><br />
+                              Review the information above and submit the form to continue. If you have any question concerning the author fees please contact resinas@us.es <br /><br />
                            <input type="submit" class="button" onclick="prepareSubmission(); storedata()" value="Continue" id="submitbutton" /> 
                            </td>
                      </tr>
@@ -655,11 +651,4 @@ title: BPM2025 Registration Form
       </div><!-- /.medium-8.columns -->
 
    </div><!-- /.row -->
-
-   <div id="up-to-top" class="row">
-      <div class="small-12 columns" style="text-align: right;">
-      <a class="iconfont" href="#top-of-page">&#xf108;</a>
-      </div><!-- /.small-12.columns -->
-   </div><!-- /.row -->
-
 
