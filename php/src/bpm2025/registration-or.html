@@ -1,50 +1,11 @@
-<!doctype html>
-<html class="no-js" lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>ICSOC 2022 Registration Form</title>
-
-    <link rel="stylesheet" type="text/css" href="/icsoc2022/assets/css/styles_feeling_responsive.css">
-
-  
-
-	<script src="/icsoc2022/assets/js/modernizr.min.js"></script>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
-	<script>
-		WebFont.load({
-			google: {
-				families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ]
-			}
-		});
-	</script>
-
-	<noscript>
-		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'>
-	</noscript>
-
-
-	<link rel="icon" sizes="32x32" href="/icsoc2022/assets/img/favicon-32x32.png">
-
-
-	<meta name="msapplication-TileColor" content="#fabb00">
-
-
-	
-
-</head>
-<body id="top-of-page" class="post">
-	
-
-   <div id="masthead" style="background-image: url('/icsoc2022/check/images/pe4.jpg'); background-repeat: no-repeat; background-size: cover;">
-      <div class="large-12 columns" style="display:flex; justify-content: center">
-            <a id="logo" href="./" title="ICSOC 2022 – 20th International Conference on Service-Oriented Computing
-               November 29th" >
-               <img src="/icsoc2022/check/images/cl.png" alt="ICSOC 2022 – 20th International Conference on Service-Oriented Computing">
-            </a>
-      </div>
-   </div>
+---
+description: Information about registration to BPM2025
+heading: Registration
+layout: default
+permalink: /registration_form_onsite/
+published: true
+title: BPM2025 Registration Form
+---
 
 	<div class="row t30">
       <div class="medium-8 columns medium-offset-2 end">
@@ -60,7 +21,6 @@
             
 
             <div itemprop="articleSection">
-            <link rel="stylesheet" href="/icsoc2022/assets/css/style.css" />
 
                <script>   
                   
@@ -166,12 +126,15 @@
                         var paper = document.getElementById("paper").value;        
                         var fa = document.getElementById("fa").value;        
                         var all = document.getElementById("all").checked;
-                        var conference = document.getElementById("conference").checked;
+                        var conference_industry = document.getElementById("conference_industry").checked;
                         var workshops = document.getElementById("workshops").checked;
                         var all_students = document.getElementById("all_students").checked;
-                        var conference_students = document.getElementById("conference_students").checked;
-                        var workshops_students = document.getElementById("workshops_students").checked;
-                    
+                        var conference_industry_students = document.getElementById("conference_industry_students").checked;
+                        var academic_ticket = document.getElementById("academic_ticket").checked;
+                        var industry_ticket = document.getElementById("iindustry_ticket").checked;
+                        var dinner_wed = document.getElementById("dinner_wed").checked;
+                        var dinner_thu = document.getElementById("dinner_thu").checked;
+
                         var array = document.getElementById("array").value;
 
                         sessionStorage.name = name;
@@ -187,11 +150,14 @@
                         sessionStorage.paper = paper;
                         sessionStorage.fa = fa;
                         sessionStorage.all = all;
-                        sessionStorage.conference = conference;
+                        sessionStorage.conference_industry = conference_industry;
                         sessionStorage.workshops = workshops;
                         sessionStorage.all_students = all_students;
-                        sessionStorage.conference_students = conference_students;
-                        sessionStorage.workshops_students = workshops_students;
+                        sessionStorage.conference_industry_students = conference_industry_students;
+                        sessionStorage.academic_ticket = academic_ticket;
+                        sessionStorage.industry_ticket = industry_ticket;
+                        sessionStorage.dinner_wed = dinner_wed;
+                        sessionStorage.dinner_thu = dinner_thu;
 
                         sessionStorage.array = array;
                      
@@ -614,34 +580,49 @@
                               
                               <tr id="text_row" class="conferenceSelector">
                                     <td>
-                                       <input type="radio" id="all" class="" name="package" value="all_or" /><label for="all">Workshops and Main conference  900 EUR</label>                        
+                                       <input type="radio" id="all" class="" name="package" value="all_or" /><label for="all">Conference, industry day and workshops 750€</label>                        
                                     </td>
                               </tr>
                               <tr id="text_row" class="conferenceSelector">
                                     <td>
-                                       <input type="radio" id="conference" name="package" value="conference_or" /><label for="conference">Main conference  850 EUR</label>                        
+                                       <input type="radio" id="conference_industry" name="package" value="conference_industry_or" /><label for="conference_industry">Conference and industry day only 650€</label>                        
                                     </td>
                                  </tr>
                                  <tr id="text_row" class="conferenceSelector">
                                        <td>
-                                       <input type="radio" id="workshops" name="package" value="workshops_or" /><label for="workshops">Workshops  450 EUR</label>                        
+                                       <input type="radio" id="workshops" name="package" value="workshops_or" /><label for="workshops">Workshops only 350€</label>                        
                                     </td>
                                  </tr>
                                  <tr id="text_row" class="conferenceSelector">
                                        <td>
-                                       <input type="radio" id="all_students" name="package" value="all_students_or" /><label for="all_students">Workshops and Main conference (students)  800 EUR</label>                        
+                                       <input type="radio" id="all_students" name="package" value="all_students_or" /><label for="all_students">Conference, industry day and workshops (students including PhD candidates) 650€</label>                        
                                     </td>
                                  </tr>
                                  <tr id="text_row" class="conferenceSelector">
                                        <td>
-                                       <input type="radio" id="conference_students" name="package" value="conference_students_or" /><label for="conference_students">Main conference (students)  750 EUR</label>                        
+                                       <input type="radio" id="conference_industry_students" name="package" value="conference_industry_students_or" /><label for="conference_industry_students">Conference and industry day only 550€</label>                        
                                     </td>
                                  </tr>
                                  <tr id="text_row" class="conferenceSelector">
                                        <td>
-                                       <input type="radio" id="workshops_students" name="package" value="workshops_students_or" /><label for="workshops_students">Workshops (students)  400 EUR</label>                        
+                                       <input type="radio" id="academic_ticket" name="package" value="academic_ticket_or" /><label for="academic_ticket">1-day Academic ticket (Tue,Wed or Thu) 500€</label>                        
                                     </td>
-                              </tr>
+                                 </tr>
+                                 <tr id="text_row" class="conferenceSelector">
+                                    <td>
+                                    <input type="radio" id="industry_ticket" name="package" value="industry_ticket_or" /><label for="industry_ticket">1-day Industry ticket (Fri) 500€</label>                        
+                                 </td>
+                                 </tr>
+                                 <tr id="text_row" class="conferenceSelector">
+                                    <td>
+                                    <input type="radio" id="dinner_wed" name="package" value="dinner_wed_or" /><label for="dinner_wed">Dinner ticket Wednesday Sept 3rd 120€</label>                        
+                                 </td>
+                                 </tr>
+                                 <tr id="text_row" class="conferenceSelector">
+                                    <td>
+                                    <input type="radio" id="dinner_thu" name="package" value="dinner_thu_or" /><label for="dinner_thu">Dinner ticket Thursday Sept 4th 55€</label>                        
+                                 </td>
+                                 </tr>
                               
                               
                                  <input type="hidden" id="array" name="array" value="" />
