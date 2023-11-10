@@ -23,16 +23,15 @@ title: BPM2025 Registration
 
 			<div itemprop="articleSection">
 
-<!--
     <script> 
 
-    var mapPro = <?php /*echo json_encode($_POST); ?>;
+    var mapPro = <?php echo json_encode($_POST); ?>;
 
     </script>
 
     <?php
 
-    /*$firstname = !empty($_REQUEST['name']) ? $_REQUEST['name'] : '';
+    $firstname = !empty($_REQUEST['name']) ? $_REQUEST['name'] : '';
     $lastname = !empty($_REQUEST['lastName']) ? $_REQUEST['lastName'] : '';
     $email = !empty($_REQUEST['email']) ? $_REQUEST['email'] : '';
     $gender = !empty($_REQUEST['gender']) ? $_REQUEST['gender'] : '';
@@ -146,9 +145,9 @@ title: BPM2025 Registration
 
                 </div>			
             </article>
-        </div>--><!-- /.medium-8.columns -->
+        </div><!-- /.medium-8.columns -->
 
-    <!--</div>--><!-- /.row -->
-    */
+    </div><!-- /.row -->
+    
 
 
