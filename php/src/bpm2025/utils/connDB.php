@@ -4,8 +4,8 @@
     function getConnection(){
 
         $host = 'localhost';
-        $user = 'bpm2025_user';
-        $pass = 'bpm2025_password';
+        $user = 'root';
+        $pass = '';
         $db = 'bpm2025';
         $logfilename = "bpm2025_log.txt";
 
