@@ -1,11 +1,16 @@
 ---
 description: Information about registration to BPM2025
-layout: default
+layout: base
+hero_text_align: center
+hero_theme: brand-color2
 permalink: /registration/
 published: true
+heading: Registration
+title: 23rd Int. Conference on Business Process Management (BPM 2025)
 ---
 
 <header class="subpage-header" style="background-image: url(../image/plaza_espana.png); background-size: cover;">
+    <br>
   <h1>{{ page.heading }}</h1>
   <br>
   <br>
