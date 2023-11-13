@@ -1,21 +1,35 @@
+<!--
 ---
 description: Order details about registration to BPM2025
 heading: Order details
 layout: default
-permalink: /resume.php/
+permalink: /resume/
 published: true
 title: BPM2025 Registration 
 ---
-
+-->
+<!doctype html>
+<html class="no-js" lang="en">
+<link rel="stylesheet" href="/2023.djangocon.eu/static/main.css">
+    <body>
+        
+    
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <header style="background-image: url(/2023.djangocon.eu/image/plaza_espana.png); background-size: cover;">
+            <br>
+            <br>
+				<div itemprop="name">
+					<h1 style="text-align:center; font-size: 54px;">Order details</h1>
+				</div>
+            <br>
+            <br>
+			</header>
 	<div class="row t20">
 	<div class="medium-8 columns medium-offset-2 end">
 		<article itemscope itemtype="http://schema.org/Article">
-			<header>
-				<div itemprop="name">
-					<h1 style="text-align:center;">Order details</h1>
-					<hr>
-				</div>
-			</header>
+			
 
 
 			
@@ -48,13 +62,16 @@ title: BPM2025 Registration
     include_once "data.php";
 
     ?>
+    <div class="row t30">
 
-    <div> <strong>23rd International Conference on Business and Process Management (BPM2025)</strong> </div>
+    
+    <div style="text-align:center"> 
+    <br>
+    <strong>23rd International Conference on Business and Process Management (BPM2025)</strong> </div>
 
     <div> <strong>Event Dates: </strong>Sunday, 31/08/25 - Friday, 5/09/25 </div>
     <p><br /></p>
-    <div class="orangeBar">Summary</div>
-    <p><br /></p>
+    <div class="blueBar" style="text-align:center"><b>Summary</b></div>
     
     <?php
         if($paper != ''){
@@ -104,7 +121,7 @@ title: BPM2025 Registration
         </tr>
     </table>
 
-    <div class="orangeBar">Payment Information</div>
+    <div class="blueBar" style="text-align:center"><b>Payment Information </b></div>
     <p><br /></p>
 
     <p>When you click <em>CONFIRM ORDER</em> you will be redirected to the payment gateway (SSL secured by Redsys by Santander Bank) to enter the credit card information for the payment.
@@ -147,6 +164,9 @@ title: BPM2025 Registration
         </div><!-- /.medium-8.columns -->
 
     </div><!-- /.row -->
-    
+    </div>
+    <script src="/2023.djangocon.eu/static/main.js"></script>
+  </body>
+</html>    
 
 

@@ -5,6 +5,10 @@ heading: "Registration terms and conditions"
 subheadline: "23rd Int. Conference on Business Process Management (BPM 2025)"
 teaser: ""
 permalink: "/terms/"
+published: true
+hero_text_align: center
+hero_theme: brand-color2
+
 ---
 
 These Terms & Conditions apply to every person registering as a regular delegate for the 23rd Int. Conference on Business Process Management (BPM 2025), to be held online from September 13-18, 2025 (hereafter referred to as "the conference"), organised by the Universidad de Sevilla (hereafter referred to as "the conference organisers").
@@ -25,11 +29,11 @@ Children under 18 years of age are not permitted to register, enter or attend an
 
 ### Substitution of participants
 
-Substitutions may be made at any time and without any fees. They have to be requested by sending an email to bpm2020@us.es at least 24 hours before the event begins.
+Substitutions may be made at any time and without any fees. They have to be requested by sending an email to resinas@us.es at least 24 hours before the event begins.
 
 ### Cancellation / Reimbursement Policy
 
-All refund and cancellation requests must be sent to bpm2020@us.es. There will be no refund after July 24, 2020, including non-arrivals. Note that if you are an author and cancel your publication fee, the articles included in it will not be presented at the conference nor included in the proceedings.
+All refund and cancellation requests must be sent to resinas@us.es. There will be no refund after July 24, 2025, including non-arrivals. Note that if you are an author and cancel your publication fee, the articles included in it will not be presented at the conference nor included in the proceedings.
 
 ### Privacy
 
