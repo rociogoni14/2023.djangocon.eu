@@ -4,7 +4,21 @@ layout: base
 ---
 
 <header class="subpage-header">
-  <h1>{% if page.heading %}{{ page.heading }}{% else %}{{ page.title }}{% endif %}</h1>
+  {% if page.background-image %}
+    <h1 style="background-image: url('{{ page.background-image }}'); background-size: cover;">
+  {% else %}
+    <h1>
+  {% endif %}
+    {% if page.heading %}
+      {{ page.heading }}
+    {% else %}
+      {{ page.title }}
+    {% endif %}
+  {% if page.background-image %}
+    </h1>
+  {% else %}
+    </h1>
+  {% endif %}
 </header>
 
 <div class="content subpage-content">

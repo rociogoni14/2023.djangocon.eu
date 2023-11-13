@@ -1,24 +1,15 @@
 ---
 description: Information about registration to BPM2025
-layout: base
+layout: default
 hero_text_align: center
 hero_theme: brand-color2
 permalink: /registration/
+background-image: ../image/plaza_espana.png
 published: true
 heading: Registration
 title: 23rd Int. Conference on Business Process Management (BPM 2025)
 ---
 
-<header class="subpage-header" style="background-image: url(../image/plaza_espana.png); background-size: cover;">
-    <br>
-  <h1>{{ page.heading }}</h1>
-  <br>
-  <br>
-  <br>
-</header>
-
-<div class="content subpage-content">
-  <div class="row column">
 
 **The registration of the 23rd International Conference on Business Process Management is now open**
 
@@ -61,5 +52,3 @@ All refund and cancellation requests must be sent to **resinas@us.es**. There wi
 
 Check the <a href="{{ site.baseurl }}/terms" >registration terms and conditions</a>
 
-  </div>
-</div>
