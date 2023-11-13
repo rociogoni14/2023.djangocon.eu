@@ -1,6 +1,6 @@
 ---
 description: Information about registration to BPM2025
-layout: base
+layout: default
 hero_text_align: center
 hero_theme: brand-color2
 permalink: /registration/
