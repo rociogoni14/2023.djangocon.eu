@@ -108,8 +108,8 @@ $userId = (bin2hex($bytes));
 
 
 
-$sql = "INSERT INTO REGISTRYDATA (ID, EMAIL, FIRSTNAME, LASTNAME, GENDER, ORGANITATION, ADDRESS1, ADDRESS2, CITY, POSTALCODE, COUNTRY,FOODALLERGIES,PAPER, PACKAGE, PAID, MERCODE) VALUES 
-('$userId', '$email', '$firstname','$lastname', '$gender', '$organization', '$address1', '$address2', '$city', '$postal', '$country', '$fa', '$paper', '$package', 'No', $id)";
+$sql = "INSERT INTO PARTICIPANTES (ID, EMAIL, FIRST_NAME, LAST_NAME, GENDER, ORGANIZATION_NAME, ADDRESS_LINE_1, ADDRESS_LINE_2, CITY, POSTAL_CODE, COUNTRY,FOOD_ALLERGIES,CONFTOOL_ID, PROGRAM_TYPE, ACCEPTED_CONDITIONS) VALUES 
+('$userId', '$email', '$firstname','$lastname', '$gender', '$organization', '$address1', '$address2', '$city', '$postal', '$country', '$fa', '$paper', '$package', 'YES')";
 $stmt = $conn->prepare($sql);
 
 //Something to write to txt log

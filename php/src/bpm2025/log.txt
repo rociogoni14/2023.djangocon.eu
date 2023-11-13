@@ -1,0 +1,28 @@
+-------------------------
+User: ::1 - November 13, 2023, 9:09 am
+Amount: 600
+-------------------------
+-------------------------
+User: ::1 - November 13, 2023, 9:11 am
+Amount: 600
+-------------------------
+-------------------------
+User: ::1 - November 13, 2023, 9:14 am
+Amount: 600
+-------------------------
+-------------------------
+User: ::1 - November 13, 2023, 9:14 am
+Amount: 600
+-------------------------
+-------------------------
+User: ::1 - November 13, 2023, 9:14 am
+Query: INSERT INTO PARTICIPANTES (ID, EMAIL, FIRST_NAME, LAST_NAME, GENDER, ORGANIZATION_NAME, ADDRESS_LINE_1, ADDRESS_LINE_2, CITY, POSTAL_CODE, COUNTRY,FOOD_ALLERGIES,CONFTOOL_ID, PROGRAM_TYPE, ACCEPTED_CONDITIONS) VALUES 
+('7eddbe876349', 'rocgonmed2@alum.us.es', 'Rocío','Goñi Medina', 'Female', 'Universidad de Sevilla', 'MALVAVISCO 5', '', 'MONTEQUINTO, DOS HERMANAS', '41089', 'ES', '', '', 'all', 'YES')
+-------------------------
+-------------------------
+User: ::1 - November 13, 2023, 9:14 am
+Attempt: 1
+Query: INSERT INTO PARTICIPANTES (ID, EMAIL, FIRST_NAME, LAST_NAME, GENDER, ORGANIZATION_NAME, ADDRESS_LINE_1, ADDRESS_LINE_2, CITY, POSTAL_CODE, COUNTRY,FOOD_ALLERGIES,CONFTOOL_ID, PROGRAM_TYPE, ACCEPTED_CONDITIONS) VALUES 
+('7eddbe876349', 'rocgonmed2@alum.us.es', 'Rocío','Goñi Medina', 'Female', 'Universidad de Sevilla', 'MALVAVISCO 5', '', 'MONTEQUINTO, DOS HERMANAS', '41089', 'ES', '', '', 'all', 'YES')
+Affected Rows: 1
+-------------------------

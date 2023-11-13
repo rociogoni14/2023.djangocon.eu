@@ -6,7 +6,6 @@ permalink: /resume.php/
 published: true
 title: BPM2025 Registration 
 ---
-	
 
 	<div class="row t20">
 	<div class="medium-8 columns medium-offset-2 end">
@@ -109,11 +108,11 @@ title: BPM2025 Registration
     <p><br /></p>
 
     <p>When you click <em>CONFIRM ORDER</em> you will be redirected to the payment gateway (SSL secured by Redsys by Santander Bank) to enter the credit card information for the payment.
-    <img src="../image/visa-and-mastercard.png" width="150" height="50" /><br /><br/></p>
+    <img src="assets/img/visa-and-mastercard.png" width="150" height="50" /><br /><br/></p>
 
 
     <p><em style="color: red">IMPORTANT</em>: In order to register the transaction in our DB, please be sure to press "CONTINUE" button, in the last step of the process:
-    <img style="align:center" src="/bpm2025/assets/img/SC-Important.png" width="600" /><br /></p>
+    <img style="align:center" src="assets/img/SC-Important.png" width="600" /><br /></p>
 
 
     <form action="check/check.php" accept-charset="UTF-8" enctype="multipart/form-data" method="POST">
