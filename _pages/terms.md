@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Registration terms and conditions"
+heading: "Registration terms and conditions"
 subheadline: "23rd Int. Conference on Business Process Management (BPM 2025)"
 teaser: ""
 permalink: "/terms/"
