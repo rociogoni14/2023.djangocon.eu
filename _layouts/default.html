@@ -3,7 +3,10 @@ title: 23rd Conference on Business and Process Management
 layout: base
 ---
 
-<header class="subpage-header" {% if page.background-image %}style="background-image: url('{{ page.background-image }}'); background-size:cover;"{% endif %}>
+<header class="subpage-header" {% if page.background-image %}style="background-image: url('{{ page.background-image }}'); background-size:cover;">
+  <br>
+  <br>
+  {% endif %}
   <h1>
     {% if page.heading %}
       {{ page.heading }}
@@ -11,6 +14,10 @@ layout: base
       {{ page.title }}
     {% endif %}
   </h1>
+  {% if page.background-image %}
+  <br>
+  <br>
+  {% endif %}
 </header>
 
 <div class="content subpage-content">
