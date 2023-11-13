@@ -7,6 +7,10 @@ published: true
 title: Registration
 ---
 
+<header class="subpage-header" style="background-image: url(../image/plaza_espana.png); background-size: cover;">
+  <h1>{{ page.heading }}</h1>
+</header>
+
 **The registration of the 23rd International Conference on Business Process Management is now open**
 
 # Registration information
