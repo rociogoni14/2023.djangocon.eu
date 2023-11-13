@@ -10,6 +10,7 @@ heading: Registration
 title: 23rd Int. Conference on Business Process Management (BPM 2025)
 ---
 
+<br>
 
 **The registration of the 23rd International Conference on Business Process Management is now open**
 
