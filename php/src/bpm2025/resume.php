@@ -10,37 +10,42 @@ title: BPM2025 Registration
 -->
 <!doctype html>
 <html class="no-js" lang="en">
-<link rel="stylesheet" href="/2023.djangocon.eu/static/main.css">
-    <body>
-        
-    
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <header style="background-image: url(/2023.djangocon.eu/image/plaza_espana.png); background-size: cover;">
+    <link rel="stylesheet" href="/2023.djangocon.eu/static/main.css">
+	 <header style="background-image: url(/2023.djangocon.eu/image/plaza_espana.png); background-size: cover;">
             <br>
             <br>
-				<div itemprop="name">
-					<h1 style="text-align:center; font-size: 54px;">Order details</h1>
-				</div>
+	    <div itemprop="name">
+	    <h1 style="text-align:center; font-size: 54px;">Order details</h1>
+	    </div>
             <br>
             <br>
-			</header>
+    </header>
+  </head>
+ <body>
 	<div class="row t20">
 	<div class="medium-8 columns medium-offset-2 end">
 		<article itemscope itemtype="http://schema.org/Article">
-			
-
-
-			
 
 			<div itemprop="articleSection">
 
-    <script> 
 
-    var mapPro = <?php echo json_encode($_POST); ?>;
-
-    </script>
+	<?php
+	if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    	// Verifica si $_POST está vacío
+   	 if (empty($_POST)) {
+        	echo "Está vacío";
+    	} else {
+        	// Si no está vacío, imprime la variable mapPro
+        	echo '<script>var mapPro = ' . json_encode($_POST) . ';</script>';
+    	}
+	} else {
+    	// Si la solicitud no es de tipo POST
+    	echo "La solicitud no es de tipo POST";
+	}
+	?>
 
     <?php
 
@@ -55,7 +60,7 @@ title: BPM2025 Registration
     $city = !empty($_REQUEST['city']) ? $_REQUEST['city'] : '';
     $postal = !empty($_REQUEST['postal']) ? $_REQUEST['postal'] : '';
     $country = !empty($_REQUEST['country']) ? $_REQUEST['country'] : '';
-    $paper = !empty($_REQUEST['paper']) ? $_REQUEST['paper'] : '';
+    //$paper = !empty($_REQUEST['paper']) ? $_REQUEST['paper'] : '';
     $fa = !empty($_REQUEST['fa']) ? $_REQUEST['fa'] : '';
     $package = !empty($_REQUEST['package']) ? $_REQUEST['package'] : "";
 
@@ -64,7 +69,7 @@ title: BPM2025 Registration
     ?>
     <div class="row t30">
 
-    
+
     <div style="text-align:center"> 
     <br>
     <strong>23rd International Conference on Business and Process Management (BPM2025)</strong> </div>
@@ -72,12 +77,6 @@ title: BPM2025 Registration
     <div> <strong>Event Dates: </strong>Sunday, 31/08/25 - Friday, 5/09/25 </div>
     <p><br /></p>
     <div class="blueBar" style="text-align:center"><b>Summary</b></div>
-    
-    <?php
-        if($paper != ''){
-            echo "<div>Paper ID: <strong>".$paper."</strong></div>";    
-        }
-    ?>
 
     <table class="table">
         <thead>
@@ -131,7 +130,6 @@ title: BPM2025 Registration
     <p><em style="color: red">IMPORTANT</em>: In order to register the transaction in our DB, please be sure to press "CONTINUE" button, in the last step of the process:
     <img style="align:center" src="assets/img/SC-Important.png" width="600" /><br /></p>
 
-
     <form action="check/check.php" accept-charset="UTF-8" enctype="multipart/form-data" method="POST">
     <?php
     echo "<input type='hidden' name='email' value='$email'>";
@@ -145,7 +143,6 @@ title: BPM2025 Registration
     echo "<input type='hidden' name='postal' value='$postal'>";
     echo "<input type='hidden' name='country' value='$country'>";
     echo "<input type='hidden' name='fa' value='$fa'>";
-    echo "<input type='hidden' name='paper' value='$paper'>";   
     echo "<input type='hidden' name='package' value='$package'>";
     ?>
 
@@ -155,11 +152,11 @@ title: BPM2025 Registration
             <input class="button" id="confirm" type="submit" onclick="javascript: sessionStorage.clear();" value="CONFIRM ORDER" /> 
         </div>
         <div id="total1">
-            <input type="button" class="button" onclick="document.location.href='./index.html'" value="Go back" />
+            <input type="button" class="button" onclick="document.location.href='https://rociogoni14.github.io/2023.djangocon.eu/index.html'" value="Go back" />
         </div>
     </form>
 
-                </div>			
+                </div>
             </article>
         </div><!-- /.medium-8.columns -->
 

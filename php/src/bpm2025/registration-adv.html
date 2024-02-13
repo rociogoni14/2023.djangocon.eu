@@ -1,23 +1,22 @@
 ---
 description: Information about registration to BPM2025
-heading: Registration Form
-layout: base
+heading: Registration
+layout: default
 permalink: /registration_form_early/
 published: true
 title: BPM2025 Registration Form
 ---
 	
-<header class="subpage-header" style="background-image: url(../image/plaza_espana.png); background-size: cover;">
-   <br>
-     <h1>{{ page.heading }}</h1>
-     <br>
-     <br>
-</header>
 
 	<div class="row t30">
       <div class="medium-8 columns medium-offset-2 end">
          <article itemscope itemtype="http://schema.org/Article">
-            
+            <header>
+               <div itemprop="name">
+                  <h1 style="text-align: center;">Registration Form</h1>
+                  <hr>
+               </div>
+            </header>
 
 
             
@@ -161,55 +160,54 @@ title: BPM2025 Registration Form
                   console.log(sessionStorage)
                   
                </script>
-               <br>
-               <br>
-               <form action="http://34.175.125.217/2023.djangocon.eu/php/src/bpm2025/resume.php" accept-charset="UTF-8" enctype="multipart/form-data" method="POST">
+
+               <form action="https://34.175.125.217/2023.djangocon.eu/php/src/bpm2025/resume.php" accept-charset="UTF-8" enctype="multipart/form-data" method="POST">
                   <table>
                   <tbody>
                      <tr>
-                           <td colspan="2" class="blueBar">
-                              <div>
-                              <b>PARTICIPANT DETAILS</b>
+                           <td colspan="2">
+                              <div class="orangeBar">
+                              PARTICIPANT DETAILS
                               </div>
                            </td>
                      </tr>
                      <tr>
-                           <td class="blueLightBar">
+                           <td>
                               <label class="required">Email:</label>
                            </td>
-                           <td class="blueLightBar">
+                           <td>
                               <input type="text" id="email" name="email" maxlength="255" required="" size="100" />
                            </td>
                      </tr>
                      <tr>
-                           <td class="blueLighterBar">
+                           <td>
                               <label class="required">Re-enter E-mail address:</label><br />
                            </td>
-                           <td class="blueLighterBar">
+                           <td>
                               <input type="text" required="" onfocus="validateMail(document.getElementById('email'), this);" oninput="validateMail(document.getElementById('email'), this);" />
                            </td>
                      </tr>
                      <tr>
-                           <td class="blueLightBar">
+                           <td>
                               <label class="required">First Name:</label><br />
                            </td>
-                           <td class="blueLightBar">
+                           <td>
                               <input type="text" id="name" name="name" maxlength="255" required="" style="width: 350px" />
                            </td>
                      </tr>
                      <tr>
-                           <td class="blueLighterBar">
+                           <td>
                               <label class="required">Last Name:</label><br />
                            </td>
-                           <td class="blueLighterBar">
+                           <td>
                               <input type="text" id="lastName" name="lastName" maxlength="255" required="" style="width: 350px" />
                            </td>
                      </tr>
                      <tr>
-                           <td class="blueLightBar">
+                           <td>
                               <label for="gender">Gender:</label><br />
                            </td>
-                           <td class="blueLightBar">
+                           <td>
                               <select id="gender" name="gender" style="width: 100px">
                                  <option value="None"> </option>
                                  <option value="Male">Male</option>
@@ -219,50 +217,50 @@ title: BPM2025 Registration Form
                            </td>
                      </tr>
                      <tr>
-                           <td class="blueLighterBar">
+                           <td>
                               <label class="required">Organization Name:<br /><sub>max. 50 characters</sub></label><br />
                            </td>
-                           <td class="blueLighterBar">
+                           <td>
                               <input type="text" id="organization" maxlength="255" name="organization" required="" />
                            </td>
                      </tr>
                      <tr>
-                           <td class="blueLightBar">
+                           <td>
                               <label class="required">Address(Line 1):<br /><sub>max. 50 characters</sub></label><br />
                            </td>
-                           <td class="blueLightBar">
+                           <td>
                               <input type="text" id="address1" maxlength="255" name="address1" required="" />
                            </td>
                         </tr>
                         <tr>
-                           <td class="blueLighterBar">
+                           <td>
                               <label for="address2">Address(Line 2):<br /><sub>max. 50 characters</sub></label><br />
                            </td>
-                           <td class="blueLighterBar">
+                           <td>
                               <input type="text" id="address2" maxlength="255" name="address2" />
                            </td>
                         </tr>
                         <tr>
-                           <td class="blueLightBar">
+                           <td>
                               <label class="required">City:</label><br />
                            </td>
-                           <td class="blueLightBar">
+                           <td>
                               <input type="text" id="city" maxlength="255" name="city" required="" />
                            </td>
                         </tr>
                         <tr>
-                           <td class="blueLighterBar">
+                           <td>
                               <label class="required">Postal Code:</label><br />
                            </td>
-                           <td class="blueLighterBar">
+                           <td>
                               <input type="text" id="postal" name="postal" maxlength="15" required="" style="width: 100px" />
                            </td>
                         </tr>
                      <tr>
-                           <td class="blueLightBar">
+                           <td>
                               <label class="required">Country:</label><br />
                            </td>
-                           <td class="blueLightBar">
+                           <td>
                               <select name="country" id="country" required="" style="width: 350px">
                                  <option value="0" label="Select a country … " selected="selected">Select a country …       </option>
                                  <optgroup id="country-optgroup-Africa" label="Africa">
@@ -534,37 +532,37 @@ title: BPM2025 Registration Form
                      </tr>
                   </tr>
                      <tr>
-                        <td class="blueLighterBar">
+                        <td>
                            <label>Food allergies:</label><br />
                         </td>
-                        <td class="blueLighterBar">
+                        <td>
                            <input type="text" id="fa" name="fa" maxlength="255"/>
                         </td>
                      </tr>
                      <tr>
-                        <td colspan="2" class="blueBar">
-                           <div >
-                           <b>ACCEPTED PAPER (If applicable)</b> 
+                        <td colspan="2">
+                           <div class="orangeBar">
+                           ACCEPTED PAPER (If applicable) 
                            </div>
                         </td>
                      </tr>
                      <tr>
-                           <td class="blueLightBar">
+                           <td>
                               <label>Conftool ID:</label>
                            </td>
-                           <td class="blueLightBar">
+                           <td>
                               <input type="text" id="paper" name="paper" maxlength="20" size="20" style="width: 350px"/>
                            </td>
                      </tr>
                      <tr>
-                           <td colspan="2" class="blueBar">
-                              <div>
-                                 <b>REGISTRATION TYPE (Early registration prices valid until <b>Nov 6th</b>) </b>
+                           <td colspan="2">
+                              <div class="orangeBar">
+                                 REGISTRATION TYPE (Early registration prices valid until <b>Nov 6th</b>)
                               </div>
                            </td>
                         </tr>
                      <tr>
-                           <td colspan="3" class="blueLightBar">
+                           <td colspan="3">
                               <table class="payment">
                                  <tr>
                                     <td colspan="2">
@@ -606,14 +604,14 @@ title: BPM2025 Registration Form
                            </td>
                      </tr>
                      <tr>
-                        <td colspan="2" class="blueBar">
-                           <div >
-                              <b>TERMS &amp; CONDITIONS</b>
+                        <td colspan="2">
+                           <div class="orangeBar">
+                              TERMS &amp; CONDITIONS
                            </div>
                         </td>
                      </tr>
                         <tr>
-                           <td colspan="3" class="blueLightBar">
+                           <td colspan="3">
                               <table class="payment">
                                  <tr>
                                     <td>
@@ -629,7 +627,7 @@ title: BPM2025 Registration Form
                            </td>
                      </tr>
                         <tr>
-                           <td colspan="2" class="blueLighterBar">
+                           <td colspan="2">
                               Review the information above and submit the form to continue. If you have any question concerning the author fees please contact resinas@us.es <br /><br />
                            <input type="submit" class="button" onclick="prepareSubmission(); storedata()" value="Continue" id="submitbutton" /> 
                            </td>
@@ -653,14 +651,4 @@ title: BPM2025 Registration Form
       </div><!-- /.medium-8.columns -->
 
    </div><!-- /.row -->
-   <div>
-      <br>
-      <br>
-      <br>  
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-   </div>
 
