@@ -17,6 +17,7 @@ services:
         - ./php/src:/var/www/html/
     ports:
         - 8100:80
+        - 443:443
   db:
     container_name: db
     image: mysql
